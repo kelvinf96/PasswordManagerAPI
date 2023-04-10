@@ -1,8 +1,16 @@
-﻿namespace PasswordManagerAPI;
+﻿using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
+namespace PasswordManagerAPI;
 
+[DataContract]
 public class User
 {
-    public Guid userId { get; init; } //<PK>
-    public string phoneId { get; init; }
+    [DataMember]
+    [JsonPropertyName("userid")]
+    public Guid UserId { get; init; } //<PK>
+
+    [DataMember]
+    [JsonPropertyName("phoneid")]
+    public string? PhoneId { get; init; }
 }
 

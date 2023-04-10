@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace PasswordManagerAPI.Controllers
@@ -11,5 +7,21 @@ namespace PasswordManagerAPI.Controllers
     [ApiController]
     public class PasswordManagerAPIController : ControllerBase
     {
+
+        //just to test encryption on PasswordService
+        [HttpPost("encrypt")]
+        public IActionResult EncryptPassword([FromBody] string plainPassword)
+        {
+            try
+            {
+                PasswordService passwordService = new PasswordService();
+                string encryptedPassword = passwordService.EncryptPassword(plainPassword);
+                return Ok(encryptedPassword);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
