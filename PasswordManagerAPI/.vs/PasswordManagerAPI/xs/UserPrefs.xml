@@ -1,4 +1,27 @@
 ﻿<Properties StartupConfiguration="{FD66BB95-16DF-4CBD-B581-5D1A365E2084}|https">
-  <MonoDevelop.Ide.ItemProperties.PasswordManagerAPI FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PasswordManagerAPI/User.cs">
+    <Files>
+      <File FileName="PasswordManagerAPI/Password.cs" Line="8" Column="49" />
+      <File FileName="PasswordManagerAPI/User.cs" Line="5" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PasswordManagerAPI" expanded="True">
+            <Node name="PasswordManagerAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="User.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.PasswordManagerAPI PreferredExecutionTarget="/Volumes/KelsExternal/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

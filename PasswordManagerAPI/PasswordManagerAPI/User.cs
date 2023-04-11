@@ -12,5 +12,13 @@ public class User
     [DataMember]
     [JsonPropertyName("phoneid")]
     public string? PhoneId { get; init; }
+
+    public User(string phoneIn)
+    {
+        this.PhoneId = phoneIn;
+        // Generate new GUID for users ID
+        this.UserId = Guid.NewGuid();
+
+    }
 }
 
