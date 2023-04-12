@@ -1,5 +1,7 @@
 
 using Microsoft.AspNetCore.Mvc;
+using PasswordManagerAPI.Models;
+using PasswordManagerAPI.Services;
 
 namespace PasswordManagerAPI.Controllers
 {

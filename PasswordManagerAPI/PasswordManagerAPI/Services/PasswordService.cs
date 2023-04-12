@@ -1,4 +1,4 @@
-﻿namespace PasswordManagerAPI
+﻿namespace PasswordManagerAPI.Services
 {
     using System;
     using System.Security.Cryptography;
