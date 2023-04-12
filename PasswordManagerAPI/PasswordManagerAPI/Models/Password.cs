@@ -1,17 +1,21 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.Serialization;
 using System.Text.Json.Serialization;
-
-namespace PasswordManagerAPI
+using PasswordManagerAPI.Services;
+namespace PasswordManagerAPI.Models
 {
     [DataContract]
     public class Password
-	{
+    {
         // Links tables by using the user object who owns the password as userId <FK>
+        public User User { get; init; }
+
         [DataMember]
         [JsonPropertyName("userid")]
-        public User UserId { get; init; }
+        public Guid UserId { get; init; }
 
+        [Key]
         [DataMember]
         [JsonPropertyName("passwordid")]
         public Guid PasswordId { get; init; }  // <PK>
@@ -24,7 +28,7 @@ namespace PasswordManagerAPI
         [NotNull]
         private string? encryptedPasswordValue;
 
- 
+
         [NotNull]
         [DataMember]
         [JsonPropertyName("passwordvalue")]
@@ -42,7 +46,7 @@ namespace PasswordManagerAPI
                 {
                     throw new ArgumentNullException(nameof(value));
                 }
-                
+
                 PasswordService passwordService = new PasswordService();
                 encryptedPasswordValue = passwordService.EncryptPassword(value);
             }
