@@ -16,6 +16,7 @@ public class Program
         builder.Services.AddDbContext<PasswordManagerContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
         builder.Services.AddScoped<IUserService, UserService>();
+        builder.Services.AddScoped<IPasswordService, PasswordService>();
 
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

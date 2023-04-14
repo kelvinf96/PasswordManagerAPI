@@ -25,6 +25,9 @@ public class User
         // Generate new GUID for users ID
         UserId = Guid.NewGuid();
 
+        // Initialize the Passwords collection to an empty collection
+        Passwords = new List<Password>();
+
     }
 
     public User()
@@ -33,6 +36,6 @@ public class User
     }
 
     //create a 1 to many relationship with entity framework by having a collection of password objects
-    public ICollection<Password> Passwords { get;set; }
+    public ICollection<Password>? Passwords { get;set; }
 }
 

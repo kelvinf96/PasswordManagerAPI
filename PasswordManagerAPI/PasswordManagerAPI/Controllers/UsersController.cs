@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PasswordManagerAPI.Models;
 using PasswordManagerAPI.Services;
+using System.ComponentModel.DataAnnotations;
 
 namespace PasswordManagerAPI.Controllers
 {
@@ -18,14 +19,14 @@ namespace PasswordManagerAPI.Controllers
         [HttpPost("getDBUser")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult GetUserByPhone([FromBody] string phone)
+        public IActionResult GetUserByPhone([Required] string phoneID)
         {
-            if (string.IsNullOrEmpty(phone))
+            if (string.IsNullOrEmpty(phoneID))
             {
                 return BadRequest("Phone parameter is missing or empty");
             }
 
-            User user = _userService.GetUser(phone);
+            User user = _userService.GetUser(phoneID);
 
             if (user == null)
             {
@@ -41,12 +42,12 @@ namespace PasswordManagerAPI.Controllers
         [HttpPost("addDBUser")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult AddUserByPhone([FromBody] string phone)
+        public IActionResult AddUserByPhone([Required] string phoneID)
         {
-            User user = _userService.GetUser(phone);
+            User user = _userService.GetUser(phoneID);
             if (user == null)
             {
-                return Ok(_userService.AddUser(phone));
+                return Ok(_userService.AddUser(phoneID));
             
             }
 
