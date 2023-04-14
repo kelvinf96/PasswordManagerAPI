@@ -8,9 +8,7 @@ namespace PasswordManagerAPI.Models
     [DataContract]
     public class Password
     {
-        // Links tables by using the user object who owns the password as userId <FK>
-        public User User { get; init; }
-
+        
         [DataMember]
         [JsonPropertyName("userid")]
         public Guid UserId { get; init; }
@@ -22,7 +20,7 @@ namespace PasswordManagerAPI.Models
 
         [DataMember]
         [JsonPropertyName("passwordname")]
-        public string? PasswordName { get; set; }
+        public string PasswordName { get; set; }
 
 
         [NotNull]
@@ -52,7 +50,13 @@ namespace PasswordManagerAPI.Models
             }
         }
 
-        // Will need properties here for password name and value, with some validations
+        // Constructor for password
+        public Password(Guid userId, String name, String password) {
+            this.UserId = userId;
+            this.PasswordId = Guid.NewGuid();
+            this.PasswordName = name;
+            this.PasswordValue = password;
+        }
 
 
     }
