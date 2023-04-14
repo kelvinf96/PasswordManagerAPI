@@ -30,24 +30,9 @@ namespace PasswordManagerAPI.Controllers
             // The user1 and user2 id's be swapped with the user who is creating the passwords ID
             new Password(user1Id, "Netflix", "TestPassword1"),
             new Password(user1Id, "SkyGo", "ManUrSh1t"),
+            new Password(user2Id, "LiverpoolTV", "1rRelevant"),
             new Password(user2Id, "Youtube", "T3stPass2"),
         };
-
-        //just to test encryption on PasswordService
-        [HttpPost("encrypt")]
-        public IActionResult EncryptPassword([FromBody] string plainPassword)
-        {
-            try
-            {
-                PasswordService passwordService = new PasswordService();
-                string encryptedPassword = passwordService.EncryptPassword(plainPassword);
-                return Ok(encryptedPassword);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
 
         // GET 
         [HttpGet("getallusers")]

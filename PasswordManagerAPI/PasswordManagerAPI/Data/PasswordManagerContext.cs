@@ -5,7 +5,13 @@ namespace PasswordManagerAPI.Data
 {
     public class PasswordManagerContext : DbContext
     {
-        public DbSet<User> Users { get; set; }
+
+            public PasswordManagerContext(DbContextOptions<PasswordManagerContext> options)
+                : base(options)
+            {
+            }
+
+            public DbSet<User> Users { get; set; }
 
         public DbSet<Password> Password { get;set; }
 

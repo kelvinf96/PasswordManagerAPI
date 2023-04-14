@@ -1,4 +1,9 @@
-﻿
+﻿using Microsoft.EntityFrameworkCore;
+using PasswordManagerAPI.Data;
+using PasswordManagerAPI.Services;
+using System.Configuration;
+
+
 namespace PasswordManagerAPI;
 
 public class Program
@@ -8,6 +13,9 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+        builder.Services.AddDbContext<PasswordManagerContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+        builder.Services.AddScoped<IUserService, UserService>();
 
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
