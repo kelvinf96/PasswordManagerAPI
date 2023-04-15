@@ -5,6 +5,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PasswordManagerAPI.Controllers
 {
+    [Route("PasswordManager/api/[controller]")]
+    [ApiController]
     public class UsersController : Controller
     {
         private readonly IUserService _userService;
@@ -16,7 +18,7 @@ namespace PasswordManagerAPI.Controllers
 
 
         //find user by phone
-        [HttpPost("getDBUser")]
+        [HttpPost("find")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult GetUserByPhone([Required] string phoneID)
@@ -39,7 +41,7 @@ namespace PasswordManagerAPI.Controllers
         }
 
         // add user by phone
-        [HttpPost("addDBUser")]
+        [HttpPost("add")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult AddUserByPhone([Required] string phoneID)
