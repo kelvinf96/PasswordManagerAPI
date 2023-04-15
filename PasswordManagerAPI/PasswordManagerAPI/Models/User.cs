@@ -35,7 +35,7 @@ public class User
         // Required by Entity Framework Core
     }
 
-    //create a 1 to many relationship with entity framework by having a collection of password objects
+    //create a 0 to many relationship with entity framework by having a collection of password objects
     public ICollection<Password>? Passwords { get;set; }
 }
 
