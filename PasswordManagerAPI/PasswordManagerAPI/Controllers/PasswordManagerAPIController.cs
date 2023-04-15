@@ -5,6 +5,7 @@ using PasswordManagerAPI.Services;
 
 namespace PasswordManagerAPI.Controllers
 {
+    /*
     [Route("api/[controller]")]
     [ApiController]
     public class PasswordManagerAPIController : ControllerBase
@@ -154,4 +155,5 @@ namespace PasswordManagerAPI.Controllers
         }
 
     }
+    */
 }
