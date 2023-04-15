@@ -1,17 +1,140 @@
 ﻿namespace PasswordManagerAPI.Services
 {
+    using PasswordManagerAPI.Data;
+    using PasswordManagerAPI.Models;
     using System;
     using System.Security.Cryptography;
     using System.Text;
 
 
-    //Password service to encrypt / decrypt passwords. Encryption key is here for now;  [TODO:Move to env]
 
-    public class PasswordService
+    public class PasswordService: IPasswordService
     {
+        //context for database
+        private readonly PasswordManagerContext _dbContext;
+
+        //constructor for password service - init db context
+        public PasswordService(PasswordManagerContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+
+        string IPasswordService.GetPassword(string phoneId, string passwordName)
+        {
+            var user = _dbContext.Users.SingleOrDefault(u => u.PhoneId == phoneId);
+ 
+
+            if (user == null)
+            {
+                // If the user doesn't exist, return an error message
+                return "User not found";
+            }
+
+            var password = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
+
+            if (password == null)
+            {
+                // Passwords collection is null
+                return "No password with that name";
+            }
+
+      
+
+            return password.PasswordValue;
+
+
+        }
+        List<object> IPasswordService.GetAllMyPasswords(string phoneId)
+        {
+            var user = _dbContext.Users.SingleOrDefault(u => u.PhoneId == phoneId);
+
+            if (user == null)
+            {
+                // If the user doesn't exist, return an empty list
+                return new List<object>();
+            }
+
+            var passwords = _dbContext.Password.Where(p => p.UserId == user.UserId)
+                .Select(p => new { PasswordName = p.PasswordName, PasswordValue = p.PasswordValue })
+                .ToList();
+
+            if (passwords.Count == 0)
+            {
+                // If the user has no passwords, return an empty list
+                return new List<object>();
+            }
+
+            return passwords.Cast<object>().ToList();
+        }
+
+
+
+
+        string IPasswordService.AddPassword(string phoneId, string passwordName, string passwordValue)
+        {
+            // Get the user with the specified phone ID from the database
+            var user = _dbContext.Users.SingleOrDefault(u => u.PhoneId == phoneId);
+
+            if (user == null)
+            {
+                // If the user doesn't exist, return an error message
+                return "User not found";
+            }
+
+
+
+            // Encrypt the password
+            var encryptedPassword = ((IPasswordService)this).EncryptPassword(passwordValue);
+
+
+            if (user.Passwords == null)
+            {
+                // Passwords collection is null
+                user.Passwords = new List<Password>();
+            }
+
+            // Check if the password already exists for this user
+            Password existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
+
+
+            if (existingPassword != null)
+            {
+                // If the password already exists, update its value and return a success message
+                existingPassword.PasswordValue = encryptedPassword;
+                _dbContext.SaveChanges();
+
+                return "Password updated successfully";
+            }
+            else
+            {
+                // If the password doesn't exist, create a new one and add it to the user's passwords collection
+                var password = new Password
+                {
+                    PasswordName = passwordName,
+                    PasswordValue = encryptedPassword
+                };
+
+                user.Passwords.Add(password);
+                _dbContext.SaveChanges();
+
+                return "Password added successfully";
+            }
+        }
+
+
+        string IPasswordService.DeletePassword(string phoneId, string passwordName)
+        {
+            throw new NotImplementedException();
+        }
+
+
+
+        //Password service to encrypt / decrypt passwords. Encryption key is here for now;  [TODO:Move to env]
+
         private const string EncryptionKey = "ead2ca2passwordmanager23"; // must be 16, 24 or 32 characters long
 
-        public string EncryptPassword(string password)
+        string IPasswordService.EncryptPassword(string password)
         {
             byte[] clearBytes = Encoding.Unicode.GetBytes(password);
 
@@ -36,7 +159,7 @@
             }
         }
 
-        public string DecryptPassword(string encryptedPassword)
+        string IPasswordService.DecryptPassword(string encryptedPassword)
         {
             byte[] cipherBytes = Convert.FromBase64String(encryptedPassword);
 
@@ -60,6 +183,11 @@
                 }
             }
         }
+
+
+
+
+
     }
 
 }

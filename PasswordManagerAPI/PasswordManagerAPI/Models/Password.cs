@@ -8,7 +8,9 @@ namespace PasswordManagerAPI.Models
 {
     [DataContract]
     public class Password
+
     {
+
         [DataMember]
         [JsonPropertyName("userid")]
         public Guid UserId { get; init; }
@@ -20,7 +22,7 @@ namespace PasswordManagerAPI.Models
 
         [DataMember]
         [JsonPropertyName("passwordname")]
-        public string PasswordName { get; set; }
+        public string? PasswordName { get; set; }
 
         [NotNull]
         private string? encryptedPasswordValue;
@@ -37,14 +39,12 @@ namespace PasswordManagerAPI.Models
             }
             set
             {
-                //password is encryped on init/set
                 if (value == null)
                 {
                     throw new ArgumentNullException(nameof(value));
                 }
 
-                PasswordService passwordService = new PasswordService();
-                encryptedPasswordValue = passwordService.EncryptPassword(value);
+                encryptedPasswordValue = value;
             }
         }
 
