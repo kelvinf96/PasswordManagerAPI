@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6PyhtlLpZ9XiVp7gZkfVbdTgq94UYUkNPQD4kkwTeGk=",
+  "Source": "PasswordManagerAPI",
+  "BasePath": "_content/PasswordManagerAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

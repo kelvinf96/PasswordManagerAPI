@@ -18,7 +18,7 @@ namespace PasswordManagerAPI.Controllers
 
 
         //find user by phone
-        [HttpPost("find")]
+        [HttpGet("find")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult GetUserByPhone([Required] string phoneID)
