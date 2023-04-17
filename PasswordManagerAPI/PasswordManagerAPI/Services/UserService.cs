@@ -1,6 +1,6 @@
 ﻿using PasswordManagerAPI.Models;
 using PasswordManagerAPI.Data;
-using PasswordManagerAPI.Services;
+
 
 namespace PasswordManagerAPI.Services
 {
@@ -20,9 +20,14 @@ namespace PasswordManagerAPI.Services
             throw new NotImplementedException();
         }
 
-        public User GetUser(string phoneId)
+        public object GetUser(string phoneId)
         {
-            User ?user = _dbContext.Users.FirstOrDefault(x => x.PhoneId == phoneId);
+            var user = _dbContext.Users.Where(u => u.PhoneId == phoneId).Select(u => new
+            {
+                u.UserId,
+                u.PhoneId
+            }).FirstOrDefault();
+          
        
             return user;
 

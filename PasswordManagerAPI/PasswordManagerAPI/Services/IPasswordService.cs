@@ -11,5 +11,11 @@ namespace PasswordManagerAPI.Services
         string AddPassword(string phoneId, string passwordName, string passwordValue);
         string DeletePassword(string phoneId, string passwordName);
 
+        string DeleteAllPasswords(string phoneId);
+        string EditPasswordName(string phoneId, string passwordName, string newPasswordName);
+
+        string PasswordCount(string phoneId);
+
+
     }
 }

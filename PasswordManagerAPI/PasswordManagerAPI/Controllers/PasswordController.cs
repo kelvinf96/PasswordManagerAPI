@@ -54,5 +54,51 @@ namespace PasswordManagerAPI.Controllers
 
         }
 
+        // remove password
+        [HttpDelete("remove")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult GetPasswordsByUser([Required] string phoneId, [Required] string passwordName)
+        {
+
+            return Ok(_passwordService.DeletePassword(phoneId, passwordName));
+
+
+        }
+        [HttpDelete("remove/all")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult RemoveAllPasswordsByUser([Required] string phoneId)
+        {
+
+            return Ok(_passwordService.DeleteAllPasswords(phoneId));
+
+
+        }
+
+
+        // edit password name
+        [HttpPut("edit/name")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult GetPasswordsByUser([Required] string phoneId, [Required] string passwordName, [Required] string newPasswordName)
+        {
+
+            return Ok(_passwordService.EditPasswordName(phoneId, passwordName, newPasswordName));
+
+        }
+
+
+        // get passowrd count
+        [HttpGet("count")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult GetPasswordCount([Required] string phoneId)
+        {
+
+            return Ok(_passwordService.PasswordCount(phoneId));
+
+        }
+
     }
 }
