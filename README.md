@@ -36,3 +36,7 @@
 	
 - Get user password count -> GET https://passwordmanagerapiead.azurewebsites.net/PasswordManager/api/Password/count?phoneId=RhysPhoneID
 	- Will search for all user's passwords, count them and return the value as a string.
+
+- Edit Password Name -> PUT https://passwordmanagerapiead.azurewebsites.net/PasswordManager/api/Password/edit/name?phoneId=RhysPhoneID&passwordName=Disney&newPasswordName=Disney+
+	- Will search for user's passwords by name, if it exists, updates password with new name.
+	- If password not found returns string 'Password not found'.
