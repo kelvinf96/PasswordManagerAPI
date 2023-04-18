@@ -36,7 +36,7 @@
             if (password == null)
             {
                 // Passwords collection is null
-                return "No password with that name";
+                return $"{passwordName} not found";
             }
 
       
@@ -104,7 +104,7 @@
                 existingPassword.PasswordValue = encryptedPassword;
                 _dbContext.SaveChanges();
 
-                return "Password updated successfully";
+                return $"{passwordName} updated successfully";
             }
             else
             {
@@ -118,14 +118,101 @@
                 user.Passwords.Add(password);
                 _dbContext.SaveChanges();
 
-                return "Password added successfully";
+                return $"{passwordName} added successfully";
             }
         }
 
 
         string IPasswordService.DeletePassword(string phoneId, string passwordName)
         {
-            throw new NotImplementedException();
+            var user = _dbContext.Users.SingleOrDefault(u => u.PhoneId == phoneId);
+
+            if (user == null)
+            {
+                // If the user doesn't exist, return an error message
+                return "User not found";
+            }
+            Password existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
+            if (existingPassword == null)
+            {
+                // If the user doesn't exist, return an error message
+                return "Password not found";
+            }
+
+            user.Passwords.Remove(existingPassword);
+            _dbContext.SaveChanges();
+
+            return $"Removed {passwordName}";
+        }
+
+        string IPasswordService.DeleteAllPasswords(string phoneId)
+        {
+            var user = _dbContext.Users.SingleOrDefault(u => u.PhoneId == phoneId);
+
+            if (user == null)
+            {
+                // If the user doesn't exist, return an error message
+                return "User not found";
+            }
+
+            List<Password> existingPasswords = _dbContext.Password.Where(p => p.UserId == user.UserId).ToList();
+            int totalPasswords = existingPasswords.Count;
+
+            if (totalPasswords < 1)
+            {
+                // If there are no passwords for the user, return an error message
+                return "No passwords found";
+            }
+
+            _dbContext.Password.RemoveRange(existingPasswords);
+            _dbContext.SaveChanges();
+
+            return $"Removed all passwords ({totalPasswords})";
+        }
+
+
+
+        string IPasswordService.PasswordCount(string phoneId)
+        {
+            var user = _dbContext.Users.SingleOrDefault(u => u.PhoneId == phoneId);
+
+            if (user == null)
+            {
+                // If the user doesn't exist, return an error message
+                return "User not found";
+            }
+
+            List<Password> existingPasswords = _dbContext.Password.Where(p => p.UserId == user.UserId).ToList();
+
+        
+
+            return existingPasswords.Count().ToString();
+
+        }
+
+
+        string IPasswordService.EditPasswordName(string phoneId, string passwordName, string newPasswordName)
+        {
+            var user = _dbContext.Users.SingleOrDefault(u => u.PhoneId == phoneId);
+
+            if (user == null)
+            {
+                // If the user doesn't exist, return an error message
+                return "User not found";
+            }
+
+            Password existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
+            if (existingPassword == null)
+            {
+                // If the user doesn't exist, return an error message
+                return "Password not found";
+            }
+
+            existingPassword.PasswordName = newPasswordName;
+            
+            _dbContext.SaveChanges();
+
+            return $"Updated password name from {passwordName} to {newPasswordName}.";
         }
 
 

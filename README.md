@@ -25,12 +25,18 @@
 	- Will search for user's passwords by name, if it already exists, updates password value, otherwise will add new password to user.
 	- Returns string message such as 'Password updated successfully' or 'Password added successfully'.
 
-[TODO]
 - Remove Password -> DELETE https://passwordmanagerapiead.azurewebsites.net/PasswordManager/api/Password/remove?phoneId=RhysPhoneID&passwordName=Disney
 	- Will search for user's passwords by name, if it exists, removes password row from table. Returns string 'Successfully removed password'
 	- If password not found returns string 'Password not found'.
 	
-[TODO]
+- Remove All Passwords -> DELETE https://passwordmanagerapiead.azurewebsites.net/PasswordManager/api/Password/remove/all?phoneId=RhysPhoneID
+	- Will search for all user's passwords
+	- If more than 0 passwords found removes them from the table and returns 'All passwords removed'
+	- Else returns 'No passwords found'
+	
+- Get user password count -> GET https://passwordmanagerapiead.azurewebsites.net/PasswordManager/api/Password/count?phoneId=RhysPhoneID
+	- Will search for all user's passwords, count them and return the value as a string.
+
 - Edit Password Name -> PUT https://passwordmanagerapiead.azurewebsites.net/PasswordManager/api/Password/edit/name?phoneId=RhysPhoneID&passwordName=Disney&newPasswordName=Disney+
 	- Will search for user's passwords by name, if it exists, updates password with new name.
 	- If password not found returns string 'Password not found'.

@@ -28,7 +28,7 @@ namespace PasswordManagerAPI.Controllers
                 return BadRequest("Phone parameter is missing or empty");
             }
 
-            User user = _userService.GetUser(phoneID);
+            object user = _userService.GetUser(phoneID);
 
             if (user == null)
             {
@@ -46,7 +46,7 @@ namespace PasswordManagerAPI.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult AddUserByPhone([Required] string phoneID)
         {
-            User user = _userService.GetUser(phoneID);
+            object user = _userService.GetUser(phoneID);
             if (user == null)
             {
                 return Ok(_userService.AddUser(phoneID));
