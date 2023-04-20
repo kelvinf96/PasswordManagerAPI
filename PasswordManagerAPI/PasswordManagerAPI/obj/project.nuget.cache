@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QrnHIxZeYw3qPYr4XWEfGKsHny5T6ysB3Btthqjd3lUSeZMs0b13y10rbuuNgSe/NSY79Ua/EGXSZNgGQTj5pg==",
+  "dgSpecHash": "8dQnWXynSmrjoMj+Xfwm08YLWBUuAnb8z76Oo32U0NgPsw6/a9qomhJ395R/Nv35SuajZ51te5EKVgWlrrl57Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rhysm\\Projects\\EAD2\\PasswordManager\\PasswordManagerAPI\\PasswordManagerAPI\\PasswordManagerAPI.csproj",
+  "projectFilePath": "C:\\Users\\rhysm\\Projects\\EAD2\\server\\PasswordManager\\PasswordManagerAPI\\PasswordManagerAPI\\PasswordManagerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rhysm\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\rhysm\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

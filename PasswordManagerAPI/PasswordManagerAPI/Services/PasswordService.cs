@@ -39,12 +39,14 @@
                 return $"{passwordName} not found";
             }
 
-      
 
-            return password.PasswordValue;
+            var decryptedPassword = DecryptPassword(password.PasswordValue);
 
+            return decryptedPassword;
 
         }
+
+
         List<object> IPasswordService.GetAllMyPasswords(string phoneId)
         {
             var user = _dbContext.Users.SingleOrDefault(u => u.PhoneId == phoneId);
@@ -55,8 +57,9 @@
                 return new List<object>();
             }
 
+
             var passwords = _dbContext.Password.Where(p => p.UserId == user.UserId)
-                .Select(p => new { PasswordName = p.PasswordName, PasswordValue = p.PasswordValue })
+                .Select(p => new { PasswordName = p.PasswordName, PasswordValue = DecryptPassword(p.PasswordValue) })
                 .ToList();
 
             if (passwords.Count == 0)
@@ -217,9 +220,9 @@
 
 
 
-        //Password service to encrypt / decrypt passwords. Encryption key is here for now;  [TODO:Move to env]
+        //service to encrypt / decrypt passwords
 
-        private const string EncryptionKey = "ead2ca2passwordmanager23"; // must be 16, 24 or 32 characters long
+        private const string EncryptionKey = "ead2ca2passwordmanager23"; // must be 16, 24 or 32 characters long  [TODO:Move to env]
 
         string IPasswordService.EncryptPassword(string password)
         {
@@ -246,7 +249,7 @@
             }
         }
 
-        string IPasswordService.DecryptPassword(string encryptedPassword)
+         private static string DecryptPassword(string encryptedPassword)
         {
             byte[] cipherBytes = Convert.FromBase64String(encryptedPassword);
 
@@ -254,7 +257,7 @@
             {
                 Rfc2898DeriveBytes pdb = new Rfc2898DeriveBytes(EncryptionKey, new byte[] {
                 0x49, 0x76, 0x61, 0x6e, 0x20, 0x4d, 0x65, 0x64, 0x76, 0x65, 0x64, 0x65, 0x76
-            });
+                });
 
                 encryptor.Key = pdb.GetBytes(32);
                 encryptor.IV = pdb.GetBytes(16);
