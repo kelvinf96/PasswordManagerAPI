@@ -4,8 +4,7 @@ namespace PasswordManagerAPI.Services
 {
     public interface IPasswordService
     {
-        public string EncryptPassword(string password);
-        public string DecryptPassword(string encryptedPassword);
+        string EncryptPassword(string password);
         string GetPassword(string phoneId, string passwordName);
         List<object> GetAllMyPasswords(string phoneId);
         string AddPassword(string phoneId, string passwordName, string passwordValue);

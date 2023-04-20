@@ -11065,11 +11065,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rhysm\\Projects\\EAD2\\PasswordManager\\PasswordManagerAPI\\PasswordManagerAPI\\PasswordManagerAPI.csproj",
+      "projectUniqueName": "C:\\Users\\rhysm\\Projects\\EAD2\\server\\PasswordManager\\PasswordManagerAPI\\PasswordManagerAPI\\PasswordManagerAPI.csproj",
       "projectName": "PasswordManagerAPI",
-      "projectPath": "C:\\Users\\rhysm\\Projects\\EAD2\\PasswordManager\\PasswordManagerAPI\\PasswordManagerAPI\\PasswordManagerAPI.csproj",
+      "projectPath": "C:\\Users\\rhysm\\Projects\\EAD2\\server\\PasswordManager\\PasswordManagerAPI\\PasswordManagerAPI\\PasswordManagerAPI.csproj",
       "packagesPath": "C:\\Users\\rhysm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rhysm\\Projects\\EAD2\\PasswordManager\\PasswordManagerAPI\\PasswordManagerAPI\\obj\\",
+      "outputPath": "C:\\Users\\rhysm\\Projects\\EAD2\\server\\PasswordManager\\PasswordManagerAPI\\PasswordManagerAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rhysm\\AppData\\Roaming\\NuGet\\NuGet.Config",
