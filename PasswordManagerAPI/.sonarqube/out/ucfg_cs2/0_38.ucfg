@@ -1,111 +1,75 @@
 
-EPasswordManagerAPI.Controllers.UsersController.AddUserByPhone(string)‚
-xC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\UsersController.cs/ /(+"4*¡
-01 2(µ
-²
-1 1(&.
-%0(PasswordManagerAPI.Services.IUserService"__id*pn*l0
-.PasswordManagerAPI.Controllers.UsersController"8
-_userService(PasswordManagerAPI.Services.IUserService±®
-1 1(7
-%1object"8PasswordManagerAPI.Services.IUserService.GetUser(string)*20
-.
-%0(PasswordManagerAPI.Services.IUserService*
-
-phoneIDstring2GetUser(string)4
+RPasswordManagerAPI.Controllers.PasswordController.RemoveAllPasswordsByUser(string)…
+{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.csG G(5"2*¥
+0J J(AÄ
+Á
+J J(&2
+%0,PasswordManagerAPI.Services.IPasswordService"__id*{y*w3
+1PasswordManagerAPI.Controllers.PasswordController"@
+_passwordService,PasswordManagerAPI.Services.IPasswordServiceÏÌ
+J J(B
+%1string"GPasswordManagerAPI.Services.IPasswordService.DeleteAllPasswords(string)*64
 2
-1 1(7
-userobject"__id*
-
-%1objecth
-f
-2 2(
-
-%2bool""object.operator ==(object, object)*
-"
-object*
-
-userobject*
-""*
-1
-2*ø
-14 4(6µ
-²
-4 4(&.
-%3(PasswordManagerAPI.Services.IUserService"__id*pn*l0
-.PasswordManagerAPI.Controllers.UsersController"8
-_userService(PasswordManagerAPI.Services.IUserService±®
-4 4(7
-%4string"8PasswordManagerAPI.Services.IUserService.AddUser(string)*20
-.
-%3(PasswordManagerAPI.Services.IUserService*
+%0,PasswordManagerAPI.Services.IPasswordService*
 
-phoneIDstring2AddUser(string)¿¼
-4 4(8-
-%5'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+phoneIdstring2DeleteAllPasswords(string)¿¼
+J J(C-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
 'Microsoft.AspNetCore.Mvc.ControllerBase*
 
-%4string2Ok(object?)";
-4 4(9/
+%1string2Ok(object?)";
+J J(D/
 -
-%5'Microsoft.AspNetCore.Mvc.OkObjectResult*­
-28 8(1Ú×
-8 8(23
-%6-Microsoft.AspNetCore.Mvc.NotFoundObjectResult"9Microsoft.AspNetCore.Mvc.ControllerBase.NotFound(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-User already exists2NotFound(object?)"A
-8 8(35
-3
-%6-Microsoft.AspNetCore.Mvc.NotFoundObjectResult*.
-3:	 :(	"
-: :(	
-implicit return*ê
-4/F /(F7
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult*.
+1M	 M(	"
+M M(	
+implicit return*ë
+2GP G(P7
 5
-/ /(+
-%7"__entrypoint*
+G G(5
+%3"__entrypoint*
 
-phoneIDstring‰
+phoneIdstring‰
 †
-/- /(5
-%8"
+G7 G(?
+%4"
 __annotate*QOM
 KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
 
-phoneIDstring
-
-,	 ,(
-%9"
-__annotate*JHF
-DMicrosoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute(string)*
+phoneIdstring†
+ƒ
+D	 D(!
+%5"
+__annotate*NLJ
+HMicrosoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute(string)*
 
-phoneIDstring˜
-•
--	 -(;
-%10"
+phoneIdstring—
+”
+E	 E(6
+%6"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
-phoneIDstring˜
-•
-.	 .(>
-%11"
+phoneIdstring—
+”
+F	 F(>
+%7"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
-phoneIDstringW
-U
-/, /(E
-phoneIDstring"__annotation*
+phoneIdstringU
+S
+G6 G(O
+phoneIdstring"__annotation*
 
-%8*
+%4*
 
-%9*	
-
-%10*	
-
-%11*
+%5*
+
+%6*
+
+%7*
 0:
-/, /(E
-phoneIDstringB20
-.PasswordManagerAPI.Controllers.UsersController
+G6 G(O
+phoneIdstringB53
+1PasswordManagerAPI.Controllers.PasswordController

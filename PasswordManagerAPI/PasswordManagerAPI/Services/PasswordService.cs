@@ -98,7 +98,7 @@
             }
 
             // Check if the password already exists for this user
-            Password existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
+            Password? existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
 
 
             if (existingPassword != null)
@@ -204,7 +204,7 @@
                 return "User not found";
             }
 
-            Password existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
+            Password? existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
             if (existingPassword == null)
             {
                 // If the user doesn't exist, return an error message
@@ -222,7 +222,10 @@
 
         //service to encrypt / decrypt passwords
 
-        private const string EncryptionKey = "ead2ca2passwordmanager23"; // must be 16, 24 or 32 characters long  [TODO:Move to env]
+        private const string EncryptionKey = "ead2ca2passwordmanager23"; // must be 16, 24 or 32 characters long
+        //In a real application this would be held in a secret variable in the environment.
+        //Leaving here to allow development & local running.
+        //This will pose a code quality vulnerability issue that can be ignored.
 
         string IPasswordService.EncryptPassword(string password)
         {

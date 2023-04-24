@@ -1,69 +1,74 @@
 
-SPasswordManagerAPI.Controllers.PasswordController.GetPasswordByName(string, string)…
-{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.cs$ $(."2*Ã
-0' '(HÄ
+[PasswordManagerAPI.Controllers.PasswordController.AddPasswordToUser(string, string, string)…
+{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.cs (."2*ð
+0 (WÄ
 Á
-' '(&2
+ (&2
 %0,PasswordManagerAPI.Services.IPasswordService"__id*{y*w3
 1PasswordManagerAPI.Controllers.PasswordController"@
-_passwordService,PasswordManagerAPI.Services.IPasswordServiceíê
-' '(I
-%1string"HPasswordManagerAPI.Services.IPasswordService.GetPassword(string, string)*64
+_passwordService,PasswordManagerAPI.Services.IPasswordServiceš—
+ (X
+%1string"PPasswordManagerAPI.Services.IPasswordService.AddPassword(string, string, string)*64
 2
 %0,PasswordManagerAPI.Services.IPasswordService*
 
 phoneIdstring*
 
-passwordNamestring2GetPassword(string, string)¿¼
-' '(J-
+passwordNamestring*
+
+passwordValuestring2#AddPassword(string, string, string)¿¼
+ (Y-
 %2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
 'Microsoft.AspNetCore.Mvc.ControllerBase*
 
 %1string2Ok(object?)";
-' '(K/
+ (Z/
 -
 %2'Microsoft.AspNetCore.Mvc.OkObjectResult*.
-1*	 *(	"
-* *(	
-implicit return*¶
-2$i $(iS
-Q
-$ $(.
+1	 (	"
+ (	
+implicit return*
+2
+Š (Šp
+n
+ (.
 %3"__entrypoint*
 
 phoneIdstring*
 
-passwordNamestring‰
+passwordNamestring*
+
+passwordValuestring‰
 †
-$0 $(8
+0 (8
 %4"
 __annotate*QOM
 KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
 
-phoneIdstring
-}
-!	 !(
+phoneIdstring
+
+	 (
 %5"
-__annotate*HFD
-BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
+__annotate*JHF
+DMicrosoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute(string)*
 
 phoneIdstring—
 ”
-"	 "(6
+	 (;
 %6"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
 phoneIdstring—
 ”
-#	 #(>
+	 (>
 %7"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
 phoneIdstringU
 S
-$/ $(H
+/ (H
 phoneIdstring"__annotation*
 
 %4*
@@ -74,35 +79,35 @@ S
 
 %7Ž
 ‹
-$K $(S
+K (S
 %8"
 __annotate*QOM
 KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
 
-passwordNamestring…
-‚
-!	 !(
+passwordNamestring‡
+„
+	 (
 %9"
-__annotate*HFD
-BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
+__annotate*JHF
+DMicrosoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute(string)*
 
 passwordNamestring
 š
-"	 "(6
+	 (;
 %10"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
 passwordNamestring
 š
-#	 #(>
+	 (>
 %11"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
 passwordNamestring\
 Z
-$J $(h
+J (h
 passwordNamestring"__annotation*
 
 %8*
@@ -111,10 +116,51 @@ Z
 
 %10*	
 
-%11*
+%11
+
+k (s
+%12"
+__annotate*QOM
+KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
+
+passwordValuestring‰
+†
+	 (
+%13"
+__annotate*JHF
+DMicrosoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute(string)*
+
+passwordValuestringž
+›
+	 (;
+%14"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+passwordValuestringž
+›
+	 (>
+%15"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+passwordValuestring`
+^
+	j (‰
+passwordValuestring"__annotation*	
+
+%12*	
+
+%13*	
+
+%14*	
+
+%15*
 0:
-$/ $(H
+/ (H
 phoneIdstring:"
-$J $(h
-passwordNamestringB53
+J (h
+passwordNamestring:$
+	j (‰
+passwordValuestringB53
 1PasswordManagerAPI.Controllers.PasswordController

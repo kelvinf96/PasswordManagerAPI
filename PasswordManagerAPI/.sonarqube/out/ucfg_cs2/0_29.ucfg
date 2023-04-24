@@ -1,15 +1,20 @@
 
-,PasswordManagerAPI.Models.User.Passwords.setr
-hC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\User.cs'2 '(5"0*¡
-0'6 '(6§
-¤
-'2 '(6Z 
-PasswordManagerAPI.Models.User"6
-	Passwords)System.Collections.Generic.ICollection<T>"__id*64
-2
-value)System.Collections.Generic.ICollection<T>"h
-'2 '(6\*Z 
-PasswordManagerAPI.Models.User"6
-	Passwords)System.Collections.Generic.ICollection<T>:42
-value)System.Collections.Generic.ICollection<T>B" 
-PasswordManagerAPI.Models.User
+kPasswordManagerAPI.Services.PasswordService.PasswordService(PasswordManagerAPI.Data.PasswordManagerContext)
+uC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\PasswordService.cs ("1*
+1	 (	*
+0*Ø
+0 ("Ã
+À
+ ("m-
++PasswordManagerAPI.Services.PasswordService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContext"__id*?=
+;
+	dbContext.PasswordManagerAPI.Data.PasswordManagerContext*
+2*.
+2	 (	"
+ (	
+implicit return:G
+ (?;
+	dbContext.PasswordManagerAPI.Data.PasswordManagerContextB/-
++PasswordManagerAPI.Services.PasswordService

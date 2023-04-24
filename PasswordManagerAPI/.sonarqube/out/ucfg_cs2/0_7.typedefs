@@ -1,15 +1,2 @@
-ˆ
-"PasswordManagerAPI.Models.Passwordobjectq
-%Password(System.Guid, string, string)HPasswordManagerAPI.Models.Password.Password(System.Guid, string, string);
-
-Password()-PasswordManagerAPI.Models.Password.Password();
-
-UserId.get-PasswordManagerAPI.Models.Password.UserId.get;
-
-UserId.set-PasswordManagerAPI.Models.Password.UserId.setC
-PasswordId.get1PasswordManagerAPI.Models.Password.PasswordId.getC
-PasswordId.set1PasswordManagerAPI.Models.Password.PasswordId.setG
-PasswordName.get3PasswordManagerAPI.Models.Password.PasswordName.getG
-PasswordName.set3PasswordManagerAPI.Models.Password.PasswordName.setI
-PasswordValue.get4PasswordManagerAPI.Models.Password.PasswordValue.getI
-PasswordValue.set4PasswordManagerAPI.Models.Password.PasswordValue.set
+*
+(PasswordManagerAPI.Services.IUserService

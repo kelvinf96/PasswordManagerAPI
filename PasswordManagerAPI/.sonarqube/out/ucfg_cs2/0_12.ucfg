@@ -1,30 +1,15 @@
 
-œPasswordManagerAPI.Controllers.PasswordController.PasswordController(PasswordManagerAPI.Services.IUserService, PasswordManagerAPI.Services.IPasswordService)…
-{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.cs (!"3*
-1	 (	k
-i
-
-%0void"0Microsoft.AspNetCore.Mvc.Controller.Controller()*)'%
-#Microsoft.AspNetCore.Mvc.Controller*
-0*æ
-0 (.Ñ
-Î
- (.w3
-1PasswordManagerAPI.Controllers.PasswordController"@
-_passwordService,PasswordManagerAPI.Services.IPasswordService"__id*CA
-?
-passwordService,PasswordManagerAPI.Services.IPasswordService*
-2*.
-2	 (	"
- (	
-implicit return*4
-3] (] 
-
- (!
-%1"__entrypoint*
-1:C
-" (:7
-userService(PasswordManagerAPI.Services.IUserService:K
-< (\?
-passwordService,PasswordManagerAPI.Services.IPasswordServiceB53
-1PasswordManagerAPI.Controllers.PasswordController
+.PasswordManagerAPI.Models.Password.UserId.initv
+lC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\Password.cs" (&"0*Ç
+0' ('k
+i
+" ('=$
+"PasswordManagerAPI.Models.Password"
+UserIdSystem.Guid"__id*
+
+valueSystem.Guid"K
+" ('?*=$
+"PasswordManagerAPI.Models.Password"
+UserIdSystem.Guid:
+valueSystem.GuidB&$
+"PasswordManagerAPI.Models.Password

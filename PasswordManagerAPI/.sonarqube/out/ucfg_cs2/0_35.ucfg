@@ -1,75 +1,119 @@
 
-RPasswordManagerAPI.Controllers.PasswordController.RemoveAllPasswordsByUser(string)…
-{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.csG G(5"2*¥
-0J J(AÄ
-Á
-J J(&2
-%0,PasswordManagerAPI.Services.IPasswordService"__id*{y*w3
-1PasswordManagerAPI.Controllers.PasswordController"@
-_passwordService,PasswordManagerAPI.Services.IPasswordServiceÏÌ
-J J(B
-%1string"GPasswordManagerAPI.Services.IPasswordService.DeleteAllPasswords(string)*64
-2
-%0,PasswordManagerAPI.Services.IPasswordService*
+EPasswordManagerAPI.Controllers.UsersController.GetUserByPhone(string)‚
+xC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\UsersController.cs (+"6*s
+0 (,\
+Z
+ (-
+
+%0bool"string.IsNullOrEmpty(string?)*
+"
+string*
 
-phoneIdstring2DeleteAllPasswords(string)¿¼
-J J(C-
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-
-%1string2Ok(object?)";
-J J(D/
--
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult*.
-1M	 M(	"
-M M(	
-implicit return*ë
-2GP G(P7
+phoneIDstring*
+1
+2*Å
+1 (Gðí
+ (H5
+%1/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*)'%
+#Phone parameter is missing or empty2BadRequest(object?)"C
+ (I7
 5
-G G(5
-%3"__entrypoint*
+%1/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*¡
+2 !(µ
+²
+ (&.
+%2(PasswordManagerAPI.Services.IUserService"__id*pn*l0
+.PasswordManagerAPI.Controllers.UsersController"8
+_userService(PasswordManagerAPI.Services.IUserService±®
+ (7
+%3object"8PasswordManagerAPI.Services.IUserService.GetUser(string)*20
+.
+%2(PasswordManagerAPI.Services.IUserService*
 
-phoneIdstring‰
+phoneIDstring2GetUser(string)4
+2
+ (7
+userobject"__id*
+
+%3objecth
+f
+! !(
+
+%4bool""object.operator ==(object, object)*
+"
+object*
+
+userobject*
+""*
+3
+4*·
+3# #(?äá
+# #(@3
+%5-Microsoft.AspNetCore.Mvc.NotFoundObjectResult"9Microsoft.AspNetCore.Mvc.ControllerBase.NotFound(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*#!
+No user found with that phone2NotFound(object?)"A
+# #(A5
+3
+%5-Microsoft.AspNetCore.Mvc.NotFoundObjectResult*Ž
+4' '(Á¾
+' '(-
+%6'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+userobject2Ok(object?)";
+' '(/
+-
+%6'Microsoft.AspNetCore.Mvc.OkObjectResult*.
+5)	 )(	"
+) )(	
+implicit return*ç
+6F (F7
+5
+ (+
+%7"__entrypoint*
+
+phoneIDstring‰
 †
-G7 G(?
-%4"
+- (5
+%8"
 __annotate*QOM
 KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
 
-phoneIdstring†
-ƒ
-D	 D(!
-%5"
-__annotate*NLJ
-HMicrosoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute(string)*
+phoneIDstring
+}
+	 (
+%9"
+__annotate*HFD
+BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
 
-phoneIdstring—
-”
-E	 E(6
-%6"
+phoneIDstring˜
+•
+	 (6
+%10"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
-phoneIdstring—
-”
-F	 F(>
-%7"
+phoneIDstring˜
+•
+	 (>
+%11"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
-phoneIdstringU
-S
-G6 G(O
-phoneIdstring"__annotation*
+phoneIDstringW
+U
+, (E
+phoneIDstring"__annotation*
 
-%4*
+%8*
 
-%5*
-
-%6*
-
-%7*
+%9*	
+
+%10*	
+
+%11*
 0:
-G6 G(O
-phoneIdstringB53
-1PasswordManagerAPI.Controllers.PasswordController
+, (E
+phoneIDstringB20
+.PasswordManagerAPI.Controllers.UsersController

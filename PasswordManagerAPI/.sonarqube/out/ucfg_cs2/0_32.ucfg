@@ -1,65 +1,69 @@
 
-LPasswordManagerAPI.Controllers.PasswordController.GetPasswordsByUser(string)Ö
-{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.cs1 1(/"2*€
-04 4(@ƒ
+TPasswordManagerAPI.Controllers.PasswordController.GetPasswordsByUser(string, string)Ö
+{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.cs= =(/"2*…
+0@ @(Kƒ
 ¡
-4 4(&2
+@ @(&2
 %0,PasswordManagerAPI.Services.IPasswordService"__id*{y*w3
 1PasswordManagerAPI.Controllers.PasswordController"@
-_passwordService,PasswordManagerAPI.Services.IPasswordServiceÈÊ
-4 4(A(
-%1"System.Collections.Generic.List<T>"FPasswordManagerAPI.Services.IPasswordService.GetAllMyPasswords(string)*64
+_passwordService,PasswordManagerAPI.Services.IPasswordServiceÛ
+@ @(L
+%1string"KPasswordManagerAPI.Services.IPasswordService.DeletePassword(string, string)*64
 2
 %0,PasswordManagerAPI.Services.IPasswordService*
 
-phoneIdstring2GetAllMyPasswords(string)€ÿ
-4 4(B-
+phoneIdstring*
+
+passwordNamestring2DeletePassword(string, string)øº
+@ @(M-
 %2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*,*
-(
-%1"System.Collections.Generic.List<T>2Ok(object?)";
-4 4(C/
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%1string2Ok(object?)";
+@ @(N/
 -
 %2'Microsoft.AspNetCore.Mvc.OkObjectResult*.
-17	 7(	"
-7 7(	
-implicit return*„
-21I 1(I7
-5
-1 1(/
+1C	 C(	"
+C C(	
+implicit return*ƒ
+2=j =(jS
+Q
+= =(/
 %3"__entrypoint*
 
-phoneIdstringâ
+phoneIdstring*
+
+passwordNamestringâ
 Ü
-11 1(9
+=1 =(9
 %4"
 __annotate*QOM
 KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
 
-phoneIdstring
-}
-.	 .(
+phoneIdstringÜ
+É
+:	 :(
 %5"
-__annotate*HFD
-BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
+__annotate*NLJ
+HMicrosoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute(string)*
 
 phoneIdstringó
 î
-/	 /(6
+;	 ;(6
 %6"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
 phoneIdstringó
 î
-0	 0(>
+<	 <(>
 %7"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
 phoneIdstringU
 S
-10 1(H
+=0 =(I
 phoneIdstring"__annotation*
 
 %4*
@@ -68,8 +72,49 @@ S
 
 %6*
 
-%7*
+%7é
+ã
+=L =(T
+%8"
+__annotate*QOM
+KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
+
+passwordNamestringã
+à
+:	 :(
+%9"
+__annotate*NLJ
+HMicrosoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute(string)*
+
+passwordNamestringù
+ö
+;	 ;(6
+%10"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+passwordNamestringù
+ö
+<	 <(>
+%11"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+passwordNamestring\
+Z
+=K =(i
+passwordNamestring"__annotation*
+
+%8*
+
+%9*	
+
+%10*	
+
+%11*
 0:
-10 1(H
-phoneIdstringB53
+=0 =(I
+phoneIdstring:"
+=K =(i
+passwordNamestringB53
 1PasswordManagerAPI.Controllers.PasswordController

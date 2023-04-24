@@ -107,27 +107,6 @@
           }
         },
         {
-          "ruleId": "CS1717",
-          "level": "warning",
-          "message": "Assignment made to same variable; did you mean to assign something else?",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/UserService.cs",
-                "region": {
-                  "startLine": 43,
-                  "startColumn": 34,
-                  "endLine": 43,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
-        },
-        {
           "ruleId": "CS8618",
           "level": "warning",
           "message": "Non-nullable field 'encryptedPasswordValue' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
@@ -136,9 +115,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Models/Password.cs",
                 "region": {
-                  "startLine": 52,
+                  "startLine": 51,
                   "startColumn": 16,
-                  "endLine": 52,
+                  "endLine": 51,
                   "endColumn": 24
                 }
               }
@@ -153,82 +132,6 @@
                   "startColumn": 25,
                   "endLine": 28,
                   "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable field 'encryptedPasswordValue' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Models/Password.cs",
-                "region": {
-                  "startLine": 59,
-                  "startColumn": 16,
-                  "endLine": 59,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Models/Password.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 25,
-                  "endLine": 28,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8600",
-          "level": "warning",
-          "message": "Converting null literal or possible null value to non-nullable type.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
-                "region": {
-                  "startLine": 101,
-                  "startColumn": 41,
-                  "endLine": 101,
-                  "endColumn": 140
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8600",
-          "level": "warning",
-          "message": "Converting null literal or possible null value to non-nullable type.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
-                "region": {
-                  "startLine": 138,
-                  "startColumn": 41,
-                  "endLine": 138,
-                  "endColumn": 140
                 }
               }
             }
@@ -259,27 +162,6 @@
           }
         },
         {
-          "ruleId": "CS8600",
-          "level": "warning",
-          "message": "Converting null literal or possible null value to non-nullable type.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
-                "region": {
-                  "startLine": 207,
-                  "startColumn": 41,
-                  "endLine": 207,
-                  "endColumn": 140
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "SYSLIB0041",
           "level": "warning",
           "message": "'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[])' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.'",
@@ -288,9 +170,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
                 "region": {
-                  "startLine": 233,
+                  "startLine": 236,
                   "startColumn": 42,
-                  "endLine": 235,
+                  "endLine": 238,
                   "endColumn": 15
                 }
               }
@@ -309,9 +191,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
                 "region": {
-                  "startLine": 258,
+                  "startLine": 261,
                   "startColumn": 42,
-                  "endLine": 260,
+                  "endLine": 263,
                   "endColumn": 19
                 }
               }
@@ -322,18 +204,18 @@
           }
         },
         {
-          "ruleId": "S1118",
+          "ruleId": "S3261",
           "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "message": "Remove this empty namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Program.cs",
+                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Controllers/PasswordManagerAPIController.cs",
                 "region": {
-                  "startLine": 9,
-                  "startColumn": 14,
-                  "endLine": 9,
-                  "endColumn": 21
+                  "startLine": 6,
+                  "startColumn": 1,
+                  "endLine": 159,
+                  "endColumn": 2
                 }
               }
             }
@@ -364,18 +246,18 @@
           }
         },
         {
-          "ruleId": "S3261",
+          "ruleId": "S1118",
           "level": "warning",
-          "message": "Remove this empty namespace.",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Controllers/PasswordManagerAPIController.cs",
+                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Program.cs",
                 "region": {
-                  "startLine": 6,
-                  "startColumn": 1,
-                  "endLine": 159,
-                  "endColumn": 2
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 21
                 }
               }
             }
@@ -397,27 +279,6 @@
                   "startColumn": 27,
                   "endLine": 3,
                   "endColumn": 200
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1135",
-          "level": "warning",
-          "message": "Complete the task associated to this 'TODO' comment.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
-                "region": {
-                  "startLine": 225,
-                  "startColumn": 116,
-                  "endLine": 225,
-                  "endColumn": 120
                 }
               }
             }
@@ -485,82 +346,6 @@
           }
         },
         {
-          "ruleId": "S1121",
-          "level": "warning",
-          "message": "Extract the assignment of 'phoneId' from this expression.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/UserService.cs",
-                "region": {
-                  "startLine": 43,
-                  "startColumn": 41,
-                  "endLine": 43,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'phoneId'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/UserService.cs",
-                "region": {
-                  "startLine": 43,
-                  "startColumn": 34,
-                  "endLine": 43,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1656",
-          "level": "warning",
-          "message": "Remove or correct this useless self-assignment.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/UserService.cs",
-                "region": {
-                  "startLine": 43,
-                  "startColumn": 34,
-                  "endLine": 43,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/UserService.cs",
-                "region": {
-                  "startLine": 43,
-                  "startColumn": 42,
-                  "endLine": 43,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S2971",
           "level": "warning",
           "message": "Use 'Count' property here instead.",
@@ -573,48 +358,6 @@
                   "startColumn": 38,
                   "endLine": 192,
                   "endColumn": 43
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2053",
-          "level": "warning",
-          "message": "Make this salt unpredictable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
-                "region": {
-                  "startLine": 233,
-                  "startColumn": 80,
-                  "endLine": 235,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2053",
-          "level": "warning",
-          "message": "Make this salt unpredictable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
-                "region": {
-                  "startLine": 258,
-                  "startColumn": 80,
-                  "endLine": 260,
-                  "endColumn": 18
                 }
               }
             }
@@ -646,6 +389,48 @@
               "PropertyNameKey": "Count"
             }
           }
+        },
+        {
+          "ruleId": "S2053",
+          "level": "warning",
+          "message": "Make this salt unpredictable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 80,
+                  "endLine": 238,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2053",
+          "level": "warning",
+          "message": "Make this salt unpredictable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/rhysm/Projects/EAD2/server/PasswordManager/PasswordManagerAPI/PasswordManagerAPI/Services/PasswordService.cs",
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 80,
+                  "endLine": 263,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
         }
       ],
       "rules": {
@@ -661,34 +446,6 @@
             "tags": [
               "Telemetry",
               "EnabledRuleInAggressiveMode"
-            ]
-          }
-        },
-        "CS1717": {
-          "id": "CS1717",
-          "shortDescription": "Assignment made to same variable",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1717)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS8600": {
-          "id": "CS8600",
-          "shortDescription": "Converting null literal or possible null value to non-nullable type.",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8600)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
             ]
           }
         },
@@ -751,40 +508,6 @@
             ]
           }
         },
-        "S1121": {
-          "id": "S1121",
-          "shortDescription": "Assignments should not be made from within sub-expressions",
-          "fullDescription": "Assignments within sub-expressions are hard to spot and therefore make the code less readable. Ideally, sub-expressions should not have side-effects.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1121",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S1135": {
-          "id": "S1135",
-          "shortDescription": "Track uses of \"TODO\" tags",
-          "fullDescription": "TODO tags are commonly used to mark places where some more code is required, but which the developer wants to implement later.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1135",
-          "properties": {
-            "category": "Info Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
         "S1186": {
           "id": "S1186",
           "shortDescription": "Methods should not be empty",
@@ -808,40 +531,6 @@
           "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S1656": {
-          "id": "S1656",
-          "shortDescription": "Variables should not be self-assigned",
-          "fullDescription": "There is no reason to re-assign a variable to itself. Either this statement is redundant and should be removed, or the re-assignment is a mistake and some other value or variable was intended for the assignment instead.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1656",
-          "properties": {
-            "category": "Major Bug",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S1854": {
-          "id": "S1854",
-          "shortDescription": "Unused assignments should be removed",
-          "fullDescription": "A dead store happens when a local variable is assigned a value that is not read by any subsequent instruction. Calculating or retrieving a value only to then overwrite it or throw it away, could indicate a serious error in the code. Even if it’s not an error, it is at best a waste of resources. Therefore all calculated values should be used.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
           "properties": {
             "category": "Major Code Smell",
             "isEnabledByDefault": true,

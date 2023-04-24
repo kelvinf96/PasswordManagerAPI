@@ -1,19 +1,15 @@
 
-:PasswordManagerAPI.Services.UserService.DeleteUser(string){
-qC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\UserService.cs ( "0*ä
-0 (/RP
- (/$
-%0System.NotImplementedException"System.NotImplementedException|
-z
- (-
-
-%1void"8System.NotImplementedException.NotImplementedException()*(&
-$
-%0System.NotImplementedException*
-1*.
-1	 (	"
- (	
-implicit return:
-! (/
-phoneIdstringB+)
-'PasswordManagerAPI.Services.UserService
+,PasswordManagerAPI.Models.User.Passwords.setr
+hC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\User.cs'2 '(5"0*¡
+0'6 '(6§
+¤
+'2 '(6Z 
+PasswordManagerAPI.Models.User"6
+	Passwords)System.Collections.Generic.ICollection<T>"__id*64
+2
+value)System.Collections.Generic.ICollection<T>"h
+'2 '(6\*Z 
+PasswordManagerAPI.Models.User"6
+	Passwords)System.Collections.Generic.ICollection<T>:42
+value)System.Collections.Generic.ICollection<T>B" 
+PasswordManagerAPI.Models.User

@@ -1,14 +1,17 @@
 
-1PasswordManagerAPI.Models.Password.PasswordId.getv
-lC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\Password.cs! ($"0*œ
-0% (%l
-j
-! (%
-%0System.Guid"__id*EC*A$
+2PasswordManagerAPI.Models.Password.PasswordId.initv
+lC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\Password.cs& (*"0*Ï
+0+ (+o
+m
+& (+A$
 "PasswordManagerAPI.Models.Password"
 
-PasswordIdSystem.Guid"
-! (%
-
-%0System.GuidB&$
+PasswordIdSystem.Guid"__id*
+
+valueSystem.Guid"O
+& (+C*A$
+"PasswordManagerAPI.Models.Password"
+
+PasswordIdSystem.Guid:
+valueSystem.GuidB&$
 "PasswordManagerAPI.Models.Password

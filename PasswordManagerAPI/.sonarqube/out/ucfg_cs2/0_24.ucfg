@@ -1,15 +1,9 @@
 
-;PasswordManagerAPI.Data.PasswordManagerContext.Password.set‚
-xC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Data\PasswordManagerContext.cs. (1"0*È
-02 (2¼
-¹
-. (2l0
-.PasswordManagerAPI.Data.PasswordManagerContext"8
-Password,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*97
-5
-value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"z
-. (2n*l0
-.PasswordManagerAPI.Data.PasswordManagerContext"8
-Password,Microsoft.EntityFrameworkCore.DbSet<TEntity>:75
-value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B20
-.PasswordManagerAPI.Data.PasswordManagerContext
+%PasswordManagerAPI.Models.User.User()r
+hC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\User.cs! !("1*
+1$ $(*
+0*.
+0$ $("
+$ $(
+implicit returnB" 
+PasswordManagerAPI.Models.User

@@ -1,74 +1,65 @@
 
-\PasswordManagerAPI.Controllers.PasswordController.GetPasswordsByUser(string, string, string)…
-{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.csT T(/"2*ü
-0W W(^Ä
+JPasswordManagerAPI.Controllers.PasswordController.GetPasswordCount(string)…
+{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.cs` `(-"2*›
+0c c(<Ä
 Á
-W W(&2
+c c(&2
 %0,PasswordManagerAPI.Services.IPasswordService"__id*{y*w3
 1PasswordManagerAPI.Controllers.PasswordController"@
-_passwordService,PasswordManagerAPI.Services.IPasswordService¦£
-W W(_
-%1string"UPasswordManagerAPI.Services.IPasswordService.EditPasswordName(string, string, string)*64
+_passwordService,PasswordManagerAPI.Services.IPasswordServiceÅÂ
+c c(=
+%1string"BPasswordManagerAPI.Services.IPasswordService.PasswordCount(string)*64
 2
 %0,PasswordManagerAPI.Services.IPasswordService*
 
-phoneIdstring*
-
-passwordNamestring*
-
-newPasswordNamestring2(EditPasswordName(string, string, string)¿¼
-W W(`-
+phoneIdstring2PasswordCount(string)¿¼
+c c(>-
 %2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
 'Microsoft.AspNetCore.Mvc.ControllerBase*
 
 %1string2Ok(object?)";
-W W(a/
+c c(?/
 -
 %2'Microsoft.AspNetCore.Mvc.OkObjectResult*.
-1Y	 Y(	"
-Y Y(	
-implicit return*¢
-2
-T T(r
-p
-T T(/
+1e	 e(	"
+e e(	
+implicit return*ã
+2`H `(H7
+5
+` `(-
 %3"__entrypoint*
 
-phoneIdstring*
-
-passwordNamestring*
-
-newPasswordNamestring‰
+phoneIdstring‰
 †
-T1 T(9
+`/ `(7
 %4"
 __annotate*QOM
 KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
 
 phoneIdstring
 }
-Q	 Q(
+]	 ](
 %5"
 __annotate*HFD
-BMicrosoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute(string)*
+BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
 
 phoneIdstring—
 ”
-R	 R(6
+^	 ^(6
 %6"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
 phoneIdstring—
 ”
-S	 S(>
+_	 _(>
 %7"
 __annotate*_][
 YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
 
 phoneIdstringU
 S
-T0 T(I
+`. `(G
 phoneIdstring"__annotation*
 
 %4*
@@ -77,90 +68,8 @@ S
 
 %6*
 
-%7Ž
-‹
-TL T(T
-%8"
-__annotate*QOM
-KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
-
-passwordNamestring…
-‚
-Q	 Q(
-%9"
-__annotate*HFD
-BMicrosoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute(string)*
-
-passwordNamestring
-š
-R	 R(6
-%10"
-__annotate*_][
-YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
-
-passwordNamestring
-š
-S	 S(>
-%11"
-__annotate*_][
-YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
-
-passwordNamestring\
-Z
-TK T(i
-passwordNamestring"__annotation*
-
-%8*
-
-%9*	
-
-%10*	
-
-%11’
-
-Tl T(t
-%12"
-__annotate*QOM
-KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
-
-newPasswordNamestring‰
-†
-Q	 Q(
-%13"
-__annotate*HFD
-BMicrosoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute(string)*
-
-newPasswordNamestring 
-
-R	 R(6
-%14"
-__annotate*_][
-YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
-
-newPasswordNamestring 
-
-S	 S(>
-%15"
-__annotate*_][
-YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
-
-newPasswordNamestringb
-`
-	Tk T(Œ
-newPasswordNamestring"__annotation*	
-
-%12*	
-
-%13*	
-
-%14*	
-
-%15*
+%7*
 0:
-T0 T(I
-phoneIdstring:"
-TK T(i
-passwordNamestring:&
-	Tk T(Œ
-newPasswordNamestringB53
+`. `(G
+phoneIdstringB53
 1PasswordManagerAPI.Controllers.PasswordController

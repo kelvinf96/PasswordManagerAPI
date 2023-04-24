@@ -48,14 +48,6 @@ namespace PasswordManagerAPI.Models
             }
         }
 
-        // Constructor for password
-        public Password(Guid userId, string name, string password)
-        {
-            this.UserId = userId;
-            this.PasswordId = Guid.NewGuid();
-            this.PasswordName = name;
-            this.PasswordValue = password;
-        }
         public Password()
         {
             //for entity framework

@@ -1,50 +1,156 @@
 
-7PasswordManagerAPI.Services.UserService.GetUser(string){
-qC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\UserService.cs ("0*Ï
-
-0  (∏
-µ
- (!4
-%0.PasswordManagerAPI.Data.PasswordManagerContext"__id*mk*i)
-'PasswordManagerAPI.Services.UserService"<
-
-_dbContext.PasswordManagerAPI.Data.PasswordManagerContextµ
-≤
- ('2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8PasswordManagerAPI.Data.PasswordManagerContext.Users.get*86
-4
-%0.PasswordManagerAPI.Data.PasswordManagerContextï
-í
- (H
-%2System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
-System.Linq.Queryable*64
-2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-""è
-å
- (
-%3System.Linq.IQueryable<T>"íSystem.Linq.Queryable.Select<TSource, TResult>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TResult>>)*"
-System.Linq.Queryable*#!
-
-%2System.Linq.IQueryable<T>*
-""‹
-Ÿ
- (;
-%45<anonymous type: System.Guid UserId, string? PhoneId>"NSystem.Linq.Queryable.FirstOrDefault<TSource>(System.Linq.IQueryable<TSource>)*"
-System.Linq.Queryable*#!
-
-%3System.Linq.IQueryable<T>ì
-ê
- (=
-user5<anonymous type: System.Guid UserId, string? PhoneId>"__id*?=
-;
-%45<anonymous type: System.Guid UserId, string? PhoneId>"K
-   (?
+)PasswordManagerAPI.Program.Main(string[])n
+dC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Program.cs ("0*ﬁ(
+0 (+’
+“
+ (88
+%02Microsoft.AspNetCore.Builder.WebApplicationBuilder"CMicrosoft.AspNetCore.Builder.WebApplication.CreateBuilder(string[])*1/"-
++Microsoft.AspNetCore.Builder.WebApplication*
+
+argsstring[]ê
+ç
+ (8=
+builder2Microsoft.AspNetCore.Builder.WebApplicationBuilder"__id*<:
+8
+%02Microsoft.AspNetCore.Builder.WebApplicationBuilder‘
+—
+ (A
+%1;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
 =
-user5<anonymous type: System.Guid UserId, string? PhoneId>*.
-1"	 "(	"
-" "(	
-implicit return:
- (,
-phoneIdstringB+)
-'PasswordManagerAPI.Services.UserService
+builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderı
+Ú
+ (]A
+%2;Microsoft.Extensions.DependencyInjection.IServiceCollection"‚Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext<TContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.EntityFrameworkCore.DbContextOptionsBuilder>?, Microsoft.Extensions.DependencyInjection.ServiceLifetime, Microsoft.Extensions.DependencyInjection.ServiceLifetime)*YW"U
+SMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions*EC
+A
+%1;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""*
+""*
+""‘
+—
+ (A
+%3;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
+=
+builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderö
+ó
+ (?A
+%4;Microsoft.Extensions.DependencyInjection.IServiceCollection"≠Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)*QO"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*EC
+A
+%3;Microsoft.Extensions.DependencyInjection.IServiceCollection‘
+—
+ (A
+%5;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
+=
+builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderö
+ó
+ (GA
+%6;Microsoft.Extensions.DependencyInjection.IServiceCollection"≠Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)*QO"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*EC
+A
+%5;Microsoft.Extensions.DependencyInjection.IServiceCollection‘
+—
+ (A
+%7;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
+=
+builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderı
+Ú
+ ():
+%84Microsoft.Extensions.DependencyInjection.IMvcBuilder"ìMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions.AddControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)*MK"I
+GMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions*EC
+A
+%7;Microsoft.Extensions.DependencyInjection.IServiceCollection‘
+—
+ (A
+%9;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
+=
+builder2Microsoft.AspNetCore.Builder.WebApplicationBuilder∂
+≥
+ (2B
+%10;Microsoft.Extensions.DependencyInjection.IServiceCollection"¥Microsoft.Extensions.DependencyInjection.EndpointMetadataApiExplorerServiceCollectionExtensions.AddEndpointsApiExplorer(Microsoft.Extensions.DependencyInjection.IServiceCollection)*ec"a
+_Microsoft.Extensions.DependencyInjection.EndpointMetadataApiExplorerServiceCollectionExtensions*EC
+A
+%9;Microsoft.Extensions.DependencyInjection.IServiceCollection’
+“
+ (B
+%11;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
+=
+builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderŸ
+÷
+ ((B
+%12;Microsoft.Extensions.DependencyInjection.IServiceCollection"›Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions>)*TR"P
+NMicrosoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions*FD
+B
+%11;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""¿
+Ω
+ (!2
+%13+Microsoft.AspNetCore.Builder.WebApplication":Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()*A?
+=
+builder2Microsoft.AspNetCore.Builder.WebApplicationBuilder~
+|
+ (!2
+app+Microsoft.AspNetCore.Builder.WebApplication"__id*64
+2
+%13+Microsoft.AspNetCore.Builder.WebApplicationª
+∏
+ (7
+%140Microsoft.AspNetCore.Hosting.IWebHostEnvironment";Microsoft.AspNetCore.Builder.WebApplication.Environment.get*64
+2
+app+Microsoft.AspNetCore.Builder.WebApplicationê
+ç
+ (+
+%15bool"vMicrosoft.Extensions.Hosting.HostEnvironmentEnvExtensions.IsDevelopment(Microsoft.Extensions.Hosting.IHostEnvironment)*?=";
+9Microsoft.Extensions.Hosting.HostEnvironmentEnvExtensions*;9
+7
+%140Microsoft.AspNetCore.Hosting.IWebHostEnvironment*
+1
+2*í
+1  (¯
+ı
+ (7
+%160Microsoft.AspNetCore.Builder.IApplicationBuilder"∞Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions.UseSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.Swagger.SwaggerOptions>)*;9"7
+5Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions*64
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+""Ç
+ˇ
+   (7
+%170Microsoft.AspNetCore.Builder.IApplicationBuilder"∏Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions>)*=;"9
+7Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions*64
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+""*
+2*®	
+2# *(¿
+Ω
+# #(!7
+%180Microsoft.AspNetCore.Builder.IApplicationBuilder"Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection(Microsoft.AspNetCore.Builder.IApplicationBuilder)*?=";
+9Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions*64
+2
+app+Microsoft.AspNetCore.Builder.WebApplication»
+≈
+% %(7
+%190Microsoft.AspNetCore.Builder.IApplicationBuilder"ÅMicrosoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(Microsoft.AspNetCore.Builder.IApplicationBuilder)*DB"@
+>Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions*64
+2
+app+Microsoft.AspNetCore.Builder.WebApplicationÏ
+È
+( ((M
+%20FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"àMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)*KI"G
+EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*64
+2
+app+Microsoft.AspNetCore.Builder.WebApplicationñ
+ì
+* *(
+%21void"8Microsoft.AspNetCore.Builder.WebApplication.Run(string?)*64
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+""*
+3*.
+3+ +("
++ +(
+implicit return:
+ ()
+argsstring[]B"
+PasswordManagerAPI.Program

@@ -1,156 +1,174 @@
 
-)PasswordManagerAPI.Program.Main(string[])n
-dC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Program.cs ("0*ﬁ(
-0 (+’
-“
- (88
-%02Microsoft.AspNetCore.Builder.WebApplicationBuilder"CMicrosoft.AspNetCore.Builder.WebApplication.CreateBuilder(string[])*1/"-
-+Microsoft.AspNetCore.Builder.WebApplication*
-
-argsstring[]ê
-ç
- (8=
-builder2Microsoft.AspNetCore.Builder.WebApplicationBuilder"__id*<:
-8
-%02Microsoft.AspNetCore.Builder.WebApplicationBuilder‘
-—
- (A
-%1;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
-=
-builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderı
-Ú
- (]A
-%2;Microsoft.Extensions.DependencyInjection.IServiceCollection"‚Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext<TContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.EntityFrameworkCore.DbContextOptionsBuilder>?, Microsoft.Extensions.DependencyInjection.ServiceLifetime, Microsoft.Extensions.DependencyInjection.ServiceLifetime)*YW"U
-SMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions*EC
-A
-%1;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""*
-""*
-""‘
-—
- (A
-%3;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
-=
-builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderö
-ó
- (?A
-%4;Microsoft.Extensions.DependencyInjection.IServiceCollection"≠Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)*QO"M
-KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*EC
-A
-%3;Microsoft.Extensions.DependencyInjection.IServiceCollection‘
-—
- (A
-%5;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
-=
-builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderö
-ó
- (GA
-%6;Microsoft.Extensions.DependencyInjection.IServiceCollection"≠Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)*QO"M
-KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*EC
-A
-%5;Microsoft.Extensions.DependencyInjection.IServiceCollection‘
-—
- (A
-%7;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
-=
-builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderı
-Ú
- ():
-%84Microsoft.Extensions.DependencyInjection.IMvcBuilder"ìMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions.AddControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)*MK"I
-GMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions*EC
-A
-%7;Microsoft.Extensions.DependencyInjection.IServiceCollection‘
-—
- (A
-%9;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
-=
-builder2Microsoft.AspNetCore.Builder.WebApplicationBuilder∂
-≥
- (2B
-%10;Microsoft.Extensions.DependencyInjection.IServiceCollection"¥Microsoft.Extensions.DependencyInjection.EndpointMetadataApiExplorerServiceCollectionExtensions.AddEndpointsApiExplorer(Microsoft.Extensions.DependencyInjection.IServiceCollection)*ec"a
-_Microsoft.Extensions.DependencyInjection.EndpointMetadataApiExplorerServiceCollectionExtensions*EC
-A
-%9;Microsoft.Extensions.DependencyInjection.IServiceCollection’
-“
- (B
-%11;Microsoft.Extensions.DependencyInjection.IServiceCollection"?Microsoft.AspNetCore.Builder.WebApplicationBuilder.Services.get*A?
-=
-builder2Microsoft.AspNetCore.Builder.WebApplicationBuilderŸ
-÷
- ((B
-%12;Microsoft.Extensions.DependencyInjection.IServiceCollection"›Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions>)*TR"P
-NMicrosoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions*FD
-B
-%11;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""¿
-Ω
- (!2
-%13+Microsoft.AspNetCore.Builder.WebApplication":Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()*A?
-=
-builder2Microsoft.AspNetCore.Builder.WebApplicationBuilder~
-|
- (!2
-app+Microsoft.AspNetCore.Builder.WebApplication"__id*64
+ÅPasswordManagerAPI.Services.PasswordService.PasswordManagerAPI.Services.IPasswordService.EditPasswordName(string, string, string)Å
+uC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\PasswordService.cs≈  ≈(0"0*©
+0
+« …(æ
+ª
+
+« «(!4
+%0.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
++PasswordManagerAPI.Services.PasswordService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContext∑
+¥
+
+« «('2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8PasswordManagerAPI.Data.PasswordManagerContext.Users.get*86
+4
+%0.PasswordManagerAPI.Data.PasswordManagerContext¶
+£
+
+« «(R$
+%2PasswordManagerAPI.Models.User"èSystem.Linq.Queryable.SingleOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
 2
-%13+Microsoft.AspNetCore.Builder.WebApplicationª
-∏
- (7
-%140Microsoft.AspNetCore.Hosting.IWebHostEnvironment";Microsoft.AspNetCore.Builder.WebApplication.Environment.get*64
-2
-app+Microsoft.AspNetCore.Builder.WebApplicationê
-ç
- (+
-%15bool"vMicrosoft.Extensions.Hosting.HostEnvironmentEnvExtensions.IsDevelopment(Microsoft.Extensions.Hosting.IHostEnvironment)*?=";
-9Microsoft.Extensions.Hosting.HostEnvironmentEnvExtensions*;9
-7
-%140Microsoft.AspNetCore.Hosting.IWebHostEnvironment*
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""f
+d
+
+« «(R&
+userPasswordManagerAPI.Models.User"__id*(&
+$
+%2PasswordManagerAPI.Models.UserÉ
+Ä
+
+… …(
+
+%3bool""object.operator ==(object, object)*
+"
+object**(
+&
+userPasswordManagerAPI.Models.User*
+""*
 1
-2*í
-1  (¯
-ı
- (7
-%160Microsoft.AspNetCore.Builder.IApplicationBuilder"∞Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions.UseSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.Swagger.SwaggerOptions>)*;9"7
-5Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions*64
+2*1
+1
+Ã Ã('" 
+
+Ã Ã((
+User not found*÷
+2
+œ –((æ
+ª
+
+œ) œ(34
+%4.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
++PasswordManagerAPI.Services.PasswordService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContext∫
+∑
+
+œ) œ(<2
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>";PasswordManagerAPI.Data.PasswordManagerContext.Password.get*86
+4
+%4.PasswordManagerAPI.Data.PasswordManagerContext´
+®
+œ) œ(å(
+%6"PasswordManagerAPI.Models.Password"èSystem.Linq.Queryable.SingleOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
 2
-app+Microsoft.AspNetCore.Builder.WebApplication*
-""Ç
-ˇ
-   (7
-%170Microsoft.AspNetCore.Builder.IApplicationBuilder"∏Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions>)*=;"9
-7Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions*64
-2
-app+Microsoft.AspNetCore.Builder.WebApplication*
-""*
-2*®	
-2# *(¿
-Ω
-# #(!7
-%180Microsoft.AspNetCore.Builder.IApplicationBuilder"Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection(Microsoft.AspNetCore.Builder.IApplicationBuilder)*?=";
-9Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions*64
-2
-app+Microsoft.AspNetCore.Builder.WebApplication»
-≈
-% %(7
-%190Microsoft.AspNetCore.Builder.IApplicationBuilder"ÅMicrosoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(Microsoft.AspNetCore.Builder.IApplicationBuilder)*DB"@
->Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions*64
-2
-app+Microsoft.AspNetCore.Builder.WebApplicationÏ
-È
-( ((M
-%20FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"àMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)*KI"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*64
-2
-app+Microsoft.AspNetCore.Builder.WebApplicationñ
-ì
-* *(
-%21void"8Microsoft.AspNetCore.Builder.WebApplication.Run(string?)*64
-2
-app+Microsoft.AspNetCore.Builder.WebApplication*
-""*
-3*.
-3+ +("
-+ +(
-implicit return:
- ()
-argsstring[]B"
-PasswordManagerAPI.Program
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""{
+y
+œ œ(å6
+existingPassword"PasswordManagerAPI.Models.Password"__id*,*
+(
+%6"PasswordManagerAPI.Models.Passwordì
+ê
+
+– –((
+
+%7bool""object.operator ==(object, object)*
+"
+object*:8
+6
+existingPassword"PasswordManagerAPI.Models.Password*
+""*
+3
+4*5
+3
+” ”(+"$
+
+” ”(,
+Password not found*…
+4
+÷ ⁄(R≠
+™
+
+÷ ÷(;
+%8string"3PasswordManagerAPI.Models.Password.PasswordName.set*:8
+6
+existingPassword"PasswordManagerAPI.Models.Password*
+
+newPasswordNamestringæ
+ª
+
+ÿ ÿ(4
+%9.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
++PasswordManagerAPI.Services.PasswordService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContextõò
+
+ÿ ÿ($
+
+%10int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*86
+4
+%9.PasswordManagerAPI.Data.PasswordManagerContext2SaveChanges()~
+|
+
+⁄ ⁄(U
+%11string"__concat*-
+
+⁄ ⁄(0
+Updated password name from *&
+
+⁄0 ⁄(>
+
+passwordNamestringR
+P
+
+⁄ ⁄(U
+%12string"__concat*
+
+%11string*
+
+⁄> ⁄(B
+ to e
+c
+
+⁄ ⁄(U
+%13string"__concat*
+
+%12string*)
+
+⁄B ⁄(S
+
+newPasswordNamestringO
+M
+
+⁄ ⁄(U
+%14string"__concat*
+
+%13string*
+
+⁄S ⁄(T
+."
+
+⁄ ⁄(V
+
+%14string*2
+5
+€	 €(	"!
+
+€ €(	
+implicit return:
+
+≈1 ≈(?
+phoneIdstring:$
+
+≈A ≈(T
+passwordNamestring:'
+
+≈V ≈(l
+newPasswordNamestringB/-
++PasswordManagerAPI.Services.PasswordService

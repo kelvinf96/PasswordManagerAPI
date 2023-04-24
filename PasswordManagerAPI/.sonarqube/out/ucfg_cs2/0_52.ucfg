@@ -1,24 +1,24 @@
 
-ÅPasswordManagerAPI.Services.PasswordService.PasswordManagerAPI.Services.IPasswordService.EditPasswordName(string, string, string)Å
-uC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\PasswordService.cs≈  ≈(0"0*©
+nPasswordManagerAPI.Services.PasswordService.PasswordManagerAPI.Services.IPasswordService.PasswordCount(string)Å
+uC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\PasswordService.cs≤  ≤(-"0*©
 0
-« …(æ
+¥ ∂(æ
 ª
 
-« «(!4
+¥ ¥(!4
 %0.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
 +PasswordManagerAPI.Services.PasswordService"<
 
 _dbContext.PasswordManagerAPI.Data.PasswordManagerContext∑
 ¥
 
-« «('2
+¥ ¥('2
 %1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8PasswordManagerAPI.Data.PasswordManagerContext.Users.get*86
 4
 %0.PasswordManagerAPI.Data.PasswordManagerContext¶
 £
 
-« «(R$
+¥ ¥(R$
 %2PasswordManagerAPI.Models.User"èSystem.Linq.Queryable.SingleOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
 System.Linq.Queryable*64
 2
@@ -26,13 +26,13 @@ _dbContext.PasswordManagerAPI.Data.PasswordManagerContext∑
 ""f
 d
 
-« «(R&
+¥ ¥(R&
 userPasswordManagerAPI.Models.User"__id*(&
 $
 %2PasswordManagerAPI.Models.UserÉ
 Ä
 
-… …(
+∂ ∂(
 
 %3bool""object.operator ==(object, object)*
 "
@@ -43,132 +43,70 @@ $
 1
 2*1
 1
-Ã Ã('" 
+π π('" 
 
-Ã Ã((
-User not found*÷
+π π((
+User not found*ß
+
 2
-œ –((æ
+º ¿(7æ
 ª
 
-œ( œ(24
+º/ º(94
 %4.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
 +PasswordManagerAPI.Services.PasswordService"<
 
 _dbContext.PasswordManagerAPI.Data.PasswordManagerContext∫
 ∑
 
-œ( œ(;2
+º/ º(B2
 %5,Microsoft.EntityFrameworkCore.DbSet<TEntity>";PasswordManagerAPI.Data.PasswordManagerContext.Password.get*86
 4
-%4.PasswordManagerAPI.Data.PasswordManagerContext´
-®
-œ( œ(ã(
-%6"PasswordManagerAPI.Models.Password"èSystem.Linq.Queryable.SingleOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+%4.PasswordManagerAPI.Data.PasswordManagerContextó
+î
+
+º/ º(f
+%6System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
 System.Linq.Queryable*64
 2
 %5,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-""{
+""’
+“
+
+º/ º(o(
+%7"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*#!
+
+%6System.Linq.IQueryable<T>{
 y
-œ œ(ã6
-existingPassword"PasswordManagerAPI.Models.Password"__id*,*
+
+º º(o7
+existingPasswords"System.Collections.Generic.List<T>"__id*,*
 (
-%6"PasswordManagerAPI.Models.Passwordì
-ê
+%7"System.Collections.Generic.List<T>Õ
+ 
 
-– –((
+¿ ¿(,	
+%8int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*;9
+7
+existingPasswords"System.Collections.Generic.List<T>;
+9
 
-%7bool""object.operator ==(object, object)*
-"
-object*:8
-6
-existingPassword"PasswordManagerAPI.Models.Password*
-""*
-3
-4*5
+¿ ¿(7
+%9string"int.ToString()*
+	
+%8int"
+
+¿ ¿(8
+
+%9string*2
 3
-” ”(+"$
+¬	 ¬(	"!
 
-” ”(,
-Password not found*…
-4
-÷ ⁄(R≠
-™
-
-÷ ÷(;
-%8string"3PasswordManagerAPI.Models.Password.PasswordName.set*:8
-6
-existingPassword"PasswordManagerAPI.Models.Password*
-
-newPasswordNamestringæ
-ª
-
-ÿ ÿ(4
-%9.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
-+PasswordManagerAPI.Services.PasswordService"<
-
-_dbContext.PasswordManagerAPI.Data.PasswordManagerContextõò
-
-ÿ ÿ($
-
-%10int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*86
-4
-%9.PasswordManagerAPI.Data.PasswordManagerContext2SaveChanges()~
-|
-
-⁄ ⁄(U
-%11string"__concat*-
-
-⁄ ⁄(0
-Updated password name from *&
-
-⁄0 ⁄(>
-
-passwordNamestringR
-P
-
-⁄ ⁄(U
-%12string"__concat*
-
-%11string*
-
-⁄> ⁄(B
- to e
-c
-
-⁄ ⁄(U
-%13string"__concat*
-
-%12string*)
-
-⁄B ⁄(S
-
-newPasswordNamestringO
-M
-
-⁄ ⁄(U
-%14string"__concat*
-
-%13string*
-
-⁄S ⁄(T
-."
-
-⁄ ⁄(V
-
-%14string*2
-5
-€	 €(	"!
-
-€ €(	
+¬ ¬(	
 implicit return:
 
-≈1 ≈(?
-phoneIdstring:$
-
-≈A ≈(T
-passwordNamestring:'
-
-≈V ≈(l
-newPasswordNamestringB/-
+≤. ≤(<
+phoneIdstringB/-
 +PasswordManagerAPI.Services.PasswordService

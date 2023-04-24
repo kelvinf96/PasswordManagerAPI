@@ -1,76 +1,39 @@
 
-sPasswordManagerAPI.Data.PasswordManagerContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)‚
-xC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Data\PasswordManagerContext.cs  (-"0*Ø
-0 (,À½
- (,
+4PasswordManagerAPI.Models.Password.PasswordValue.setv
+lC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\Password.cs( (("0*€
+0* *(!i
+g
+* *(!
 
-%0bool"FMicrosoft.EntityFrameworkCore.DbContextOptionsBuilder.IsConfigured.get*KI
-G
-optionsBuilder5Microsoft.EntityFrameworkCore.DbContextOptionsBuilder2IsConfigured.get*
+%0bool""string.operator ==(string, string)*
+"
+string*
+
+valuestring*
+""*
 1
-2*½
-1# (a…‚
-3 (M=
-%17Microsoft.Extensions.Configuration.ConfigurationBuilder"7Microsoft.Extensions.Configuration.ConfigurationBuilder¬
-©
-7 (K
+2*í
+1, ,(ANL
+, ,(B"
+%1System.ArgumentNullException"System.ArgumentNullExceptionˆ
+…
+, ,(3
 
-%2void"NMicrosoft.Extensions.Configuration.ConfigurationBuilder.ConfigurationBuilder()*A?
-=
-%17Microsoft.Extensions.Configuration.ConfigurationBuilder`
-^
-! (8
-%3System.AppDomain""System.AppDomain.CurrentDomain.get*"
-System.AppDomainZ
-X
-! (F
-%4string""System.AppDomain.BaseDirectory.get*
-
-%3System.AppDomain÷
-ô
-3 (G>
-%58Microsoft.Extensions.Configuration.IConfigurationBuilder"ŒMicrosoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder, string)*DB"@
->Microsoft.Extensions.Configuration.FileConfigurationExtensions*A?
-=
-%17Microsoft.Extensions.Configuration.ConfigurationBuilder*
-
-%4stringþ
-û
-3 (4>
-%68Microsoft.Extensions.Configuration.IConfigurationBuilder"ŒMicrosoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, string)*DB"@
->Microsoft.Extensions.Configuration.JsonConfigurationExtensions*B@
->
-%58Microsoft.Extensions.Configuration.IConfigurationBuilder*
-appsettings.jsonÙÖ
-3 (;
-%75Microsoft.Extensions.Configuration.IConfigurationRoot"@Microsoft.Extensions.Configuration.IConfigurationBuilder.Build()*B@
->
-%68Microsoft.Extensions.Configuration.IConfigurationBuilder2Build()œ
-™
-# (F
-configuration5Microsoft.Extensions.Configuration.IConfigurationRoot"__id*?=
-;
-%75Microsoft.Extensions.Configuration.IConfigurationRootÎ
-Ë
-, (b
-%8string"‰Microsoft.Extensions.Configuration.ConfigurationExtensions.GetConnectionString(Microsoft.Extensions.Configuration.IConfiguration, string)*@>"<
-:Microsoft.Extensions.Configuration.ConfigurationExtensions*JH
-F
-configuration5Microsoft.Extensions.Configuration.IConfigurationRoot*
-DefaultConnectionì
-é
- (c;
-%95Microsoft.EntityFrameworkCore.DbContextOptionsBuilder"íMicrosoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, string?, System.Action<Microsoft.EntityFrameworkCore.Infrastructure.SqlServerDbContextOptionsBuilder>?)*GE"C
-AMicrosoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions*KI
-G
-optionsBuilder5Microsoft.EntityFrameworkCore.DbContextOptionsBuilder*
-
-%8string*
+%2void";System.ArgumentNullException.ArgumentNullException(string?)*&$
+"
+%1System.ArgumentNullException*
 ""*
-2*.
-2	 (	"
- (	
-implicit return:S
-. (TG
-optionsBuilder5Microsoft.EntityFrameworkCore.DbContextOptionsBuilderB20
-.PasswordManagerAPI.Data.PasswordManagerContext
+3*…
+2/ /(.q
+o
+/ /(.H$
+"PasswordManagerAPI.Models.Password" 
+encryptedPasswordValuestring"__id*
+
+valuestring*
+3*.
+30 0("
+0 0(
+implicit return:
+valuestringB&$
+"PasswordManagerAPI.Models.Password

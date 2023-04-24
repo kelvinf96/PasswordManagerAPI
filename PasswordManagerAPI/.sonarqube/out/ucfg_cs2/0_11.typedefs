@@ -1,7 +1,8 @@
-í
-'PasswordManagerAPI.Services.UserServiceobject(PasswordManagerAPI.Services.IUserService¢
-;UserService(PasswordManagerAPI.Data.PasswordManagerContext)cPasswordManagerAPI.Services.UserService.UserService(PasswordManagerAPI.Data.PasswordManagerContext)P
-DeleteUser(string):PasswordManagerAPI.Services.UserService.DeleteUser(string)J
-GetUser(string)7PasswordManagerAPI.Services.UserService.GetUser(string)€
-*UpdateUser(PasswordManagerAPI.Models.User)RPasswordManagerAPI.Services.UserService.UpdateUser(PasswordManagerAPI.Models.User)J
-AddUser(string)7PasswordManagerAPI.Services.UserService.AddUser(string)
+ê
+.PasswordManagerAPI.Data.PasswordManagerContext'Microsoft.EntityFrameworkCore.DbContextobject 
+vPasswordManagerContext(Microsoft.EntityFrameworkCore.DbContextOptions<PasswordManagerAPI.Data.PasswordManagerContext>)¥PasswordManagerAPI.Data.PasswordManagerContext.PasswordManagerContext(Microsoft.EntityFrameworkCore.DbContextOptions<PasswordManagerAPI.Data.PasswordManagerContext>)»
+DOnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)sPasswordManagerAPI.Data.PasswordManagerContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)E
+	Users.get8PasswordManagerAPI.Data.PasswordManagerContext.Users.getE
+	Users.set8PasswordManagerAPI.Data.PasswordManagerContext.Users.setK
+Password.get;PasswordManagerAPI.Data.PasswordManagerContext.Password.getK
+Password.set;PasswordManagerAPI.Data.PasswordManagerContext.Password.set

@@ -1,24 +1,15 @@
 
-¥PasswordManagerAPI.Data.PasswordManagerContext.PasswordManagerContext(Microsoft.EntityFrameworkCore.DbContextOptions<PasswordManagerAPI.Data.PasswordManagerContext>)‚
-xC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Data\PasswordManagerContext.cs	 	()"1*
-1 (*
-0*‰
-0
- 
-(ô
-ñ
-
- 
-(
-
-%0void"aMicrosoft.EntityFrameworkCore.DbContext.DbContext(Microsoft.EntityFrameworkCore.DbContextOptions)*-+)
-'Microsoft.EntityFrameworkCore.DbContext*GE
-C
-options8Microsoft.EntityFrameworkCore.DbContextOptions<TContext>*
-2*.
-2 ("
- (
-implicit return:O
-	* 	(ZC
-options8Microsoft.EntityFrameworkCore.DbContextOptions<TContext>B20
-.PasswordManagerAPI.Data.PasswordManagerContext
+*PasswordManagerAPI.Models.User.UserId.initr
+hC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\User.cs (""0*¿
+0# (#g
+e
+ (#9 
+PasswordManagerAPI.Models.User"
+UserIdSystem.Guid"__id*
+
+valueSystem.Guid"G
+ (#;*9 
+PasswordManagerAPI.Models.User"
+UserIdSystem.Guid:
+valueSystem.GuidB" 
+PasswordManagerAPI.Models.User

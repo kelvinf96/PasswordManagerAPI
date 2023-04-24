@@ -1,13 +1,15 @@
 
-;PasswordManagerAPI.Data.PasswordManagerContext.Password.get‚
-xC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Data\PasswordManagerContext.cs* (-"0*‹
-0. (.¹
-¶
-* (.2
-%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*pn*l0
-.PasswordManagerAPI.Data.PasswordManagerContext"8
-Password,Microsoft.EntityFrameworkCore.DbSet<TEntity>"@
-* (.4
-2
-%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>B20
-.PasswordManagerAPI.Data.PasswordManagerContext
+3PasswordManagerAPI.Models.Password.PasswordName.setv
+lC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\Password.cs+ (."0*Ä
+0/ (/g
+e
++ (/>$
+"PasswordManagerAPI.Models.Password"
+PasswordNamestring"__id*
+
+valuestring"L
++ (/@*>$
+"PasswordManagerAPI.Models.Password"
+PasswordNamestring:
+valuestringB&$
+"PasswordManagerAPI.Models.Password

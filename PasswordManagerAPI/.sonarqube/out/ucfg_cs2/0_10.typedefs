@@ -1,8 +1,5 @@
-ê
-.PasswordManagerAPI.Data.PasswordManagerContext'Microsoft.EntityFrameworkCore.DbContextobject 
-vPasswordManagerContext(Microsoft.EntityFrameworkCore.DbContextOptions<PasswordManagerAPI.Data.PasswordManagerContext>)¥PasswordManagerAPI.Data.PasswordManagerContext.PasswordManagerContext(Microsoft.EntityFrameworkCore.DbContextOptions<PasswordManagerAPI.Data.PasswordManagerContext>)»
-DOnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)sPasswordManagerAPI.Data.PasswordManagerContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)E
-	Users.get8PasswordManagerAPI.Data.PasswordManagerContext.Users.getE
-	Users.set8PasswordManagerAPI.Data.PasswordManagerContext.Users.setK
-Password.get;PasswordManagerAPI.Data.PasswordManagerContext.Password.getK
-Password.set;PasswordManagerAPI.Data.PasswordManagerContext.Password.set
+ð
+.PasswordManagerAPI.Controllers.UsersController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobject¥
+9UsersController(PasswordManagerAPI.Services.IUserService)hPasswordManagerAPI.Controllers.UsersController.UsersController(PasswordManagerAPI.Services.IUserService)_
+GetUserByPhone(string)EPasswordManagerAPI.Controllers.UsersController.GetUserByPhone(string)_
+AddUserByPhone(string)EPasswordManagerAPI.Controllers.UsersController.AddUserByPhone(string)

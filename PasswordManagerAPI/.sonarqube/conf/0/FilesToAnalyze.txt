@@ -20,7 +20,6 @@ C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordM
 C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\obj\Debug\net7.0\PasswordManagerAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\appsettings.Development.json
 C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\appsettings.json
-C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\sonar-project.properties
 C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Properties\launchSettings.json
 C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Properties\serviceDependencies.json
 C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Properties\serviceDependencies.local.json

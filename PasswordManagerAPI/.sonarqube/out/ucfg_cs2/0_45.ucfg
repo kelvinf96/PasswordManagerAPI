@@ -1,39 +1,9 @@
 
-4PasswordManagerAPI.Models.Password.PasswordValue.setv
-lC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\Password.cs( (("0*€
-0* *(!i
-g
-* *(!
-
-%0bool""string.operator ==(string, string)*
-"
-string*
-
-valuestring*
-""*
-1
-2*í
-1, ,(ANL
-, ,(B"
-%1System.ArgumentNullException"System.ArgumentNullExceptionˆ
-…
-, ,(3
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*&$
-"
-%1System.ArgumentNullException*
-""*
-3*…
-2/ /(.q
-o
-/ /(.H$
-"PasswordManagerAPI.Models.Password" 
-encryptedPasswordValuestring"__id*
-
-valuestring*
-3*.
-30 0("
-0 0(
-implicit return:
-valuestringB&$
+-PasswordManagerAPI.Models.Password.Password()v
+lC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\Password.cs3 3("1*
+16	 6(	*
+0*.
+06	 6(	"
+6 6(	
+implicit returnB&$
 "PasswordManagerAPI.Models.Password

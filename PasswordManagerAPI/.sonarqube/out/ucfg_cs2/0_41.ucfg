@@ -1,19 +1,166 @@
 
-RPasswordManagerAPI.Services.UserService.UpdateUser(PasswordManagerAPI.Models.User){
-qC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\UserService.cs$ $( "0*ä
-0& &(/RP
-& &(/$
-%0System.NotImplementedException"System.NotImplementedException|
-z
-& &(-
-
-%1void"8System.NotImplementedException.NotImplementedException()*(&
-$
-%0System.NotImplementedException*
-1*.
-1'	 '(	"
-' '(	
-implicit return:2
-$! $(*&
-userPasswordManagerAPI.Models.UserB+)
-'PasswordManagerAPI.Services.UserService
+\PasswordManagerAPI.Controllers.PasswordController.GetPasswordsByUser(string, string, string)…
+{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.csT T(/"2*ü
+0W W(^Ä
+Á
+W W(&2
+%0,PasswordManagerAPI.Services.IPasswordService"__id*{y*w3
+1PasswordManagerAPI.Controllers.PasswordController"@
+_passwordService,PasswordManagerAPI.Services.IPasswordService¦£
+W W(_
+%1string"UPasswordManagerAPI.Services.IPasswordService.EditPasswordName(string, string, string)*64
+2
+%0,PasswordManagerAPI.Services.IPasswordService*
+
+phoneIdstring*
+
+passwordNamestring*
+
+newPasswordNamestring2(EditPasswordName(string, string, string)¿¼
+W W(`-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%1string2Ok(object?)";
+W W(a/
+-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult*.
+1Y	 Y(	"
+Y Y(	
+implicit return*¢
+2
+T T(r
+p
+T T(/
+%3"__entrypoint*
+
+phoneIdstring*
+
+passwordNamestring*
+
+newPasswordNamestring‰
+†
+T1 T(9
+%4"
+__annotate*QOM
+KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
+
+phoneIdstring
+}
+Q	 Q(
+%5"
+__annotate*HFD
+BMicrosoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute(string)*
+
+phoneIdstring—
+”
+R	 R(6
+%6"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+phoneIdstring—
+”
+S	 S(>
+%7"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+phoneIdstringU
+S
+T0 T(I
+phoneIdstring"__annotation*
+
+%4*
+
+%5*
+
+%6*
+
+%7Ž
+‹
+TL T(T
+%8"
+__annotate*QOM
+KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
+
+passwordNamestring…
+‚
+Q	 Q(
+%9"
+__annotate*HFD
+BMicrosoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute(string)*
+
+passwordNamestring
+š
+R	 R(6
+%10"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+passwordNamestring
+š
+S	 S(>
+%11"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+passwordNamestring\
+Z
+TK T(i
+passwordNamestring"__annotation*
+
+%8*
+
+%9*	
+
+%10*	
+
+%11’
+
+Tl T(t
+%12"
+__annotate*QOM
+KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
+
+newPasswordNamestring‰
+†
+Q	 Q(
+%13"
+__annotate*HFD
+BMicrosoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute(string)*
+
+newPasswordNamestring 
+
+R	 R(6
+%14"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+newPasswordNamestring 
+
+S	 S(>
+%15"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+newPasswordNamestringb
+`
+	Tk T(Œ
+newPasswordNamestring"__annotation*	
+
+%12*	
+
+%13*	
+
+%14*	
+
+%15*
+0:
+T0 T(I
+phoneIdstring:"
+TK T(i
+passwordNamestring:&
+	Tk T(Œ
+newPasswordNamestringB53
+1PasswordManagerAPI.Controllers.PasswordController

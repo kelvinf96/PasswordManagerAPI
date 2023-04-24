@@ -1,10 +1,6 @@
-ñ	
-1PasswordManagerAPI.Controllers.PasswordController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobject‹
-jPasswordController(PasswordManagerAPI.Services.IUserService, PasswordManagerAPI.Services.IPasswordService)œPasswordManagerAPI.Controllers.PasswordController.PasswordController(PasswordManagerAPI.Services.IUserService, PasswordManagerAPI.Services.IPasswordService)ˆ
-)AddPasswordToUser(string, string, string)[PasswordManagerAPI.Controllers.PasswordController.AddPasswordToUser(string, string, string)x
-!GetPasswordByName(string, string)SPasswordManagerAPI.Controllers.PasswordController.GetPasswordByName(string, string)j
-GetPasswordsByUser(string)LPasswordManagerAPI.Controllers.PasswordController.GetPasswordsByUser(string)z
-"GetPasswordsByUser(string, string)TPasswordManagerAPI.Controllers.PasswordController.GetPasswordsByUser(string, string)v
- RemoveAllPasswordsByUser(string)RPasswordManagerAPI.Controllers.PasswordController.RemoveAllPasswordsByUser(string)Š
-*GetPasswordsByUser(string, string, string)\PasswordManagerAPI.Controllers.PasswordController.GetPasswordsByUser(string, string, string)f
-GetPasswordCount(string)JPasswordManagerAPI.Controllers.PasswordController.GetPasswordCount(string)
+Â
++PasswordManagerAPI.Migrations.InitialCreate2Microsoft.EntityFrameworkCore.Migrations.Migrationobjectª
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)iPasswordManagerAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)®
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)kPasswordManagerAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)¨
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)hPasswordManagerAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)N
+InitialCreate();PasswordManagerAPI.Migrations.InitialCreate.InitialCreate()

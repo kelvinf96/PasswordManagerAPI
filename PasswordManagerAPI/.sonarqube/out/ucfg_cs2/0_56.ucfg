@@ -1,224 +1,43 @@
 
-|PasswordManagerAPI.Services.PasswordService.PasswordManagerAPI.Services.IPasswordService.AddPassword(string, string, string)
-uC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\PasswordService.csM  M(+"0*ú
-0P R(º
-π
-P P(!4
-%0.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
-+PasswordManagerAPI.Services.PasswordService"<
+iPasswordManagerAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)è
+ÑC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Migrations\20230412160149_InitialCreate.cs  (""0*È
+0 1( ≤Ø
+ (_
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"∏Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Users*
+""*
+""*
+""*
+""2˛CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)µ≤
+ ,(_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"∏Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
 
-_dbContext.PasswordManagerAPI.Data.PasswordManagerContextµ
-≤
-P P('2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8PasswordManagerAPI.Data.PasswordManagerContext.Users.get*86
-4
-%0.PasswordManagerAPI.Data.PasswordManagerContext§
-°
-P P(R$
-%2PasswordManagerAPI.Models.User"èSystem.Linq.Queryable.SingleOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
-System.Linq.Queryable*64
-2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-""d
-b
-P P(R&
-userPasswordManagerAPI.Models.User"__id*(&
-$
-%2PasswordManagerAPI.Models.UserÄ
-~
-R R(
+Password*
+""*
+""*
+""*
+""2˛CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)Á‰
+. 1(!_
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Password_UserId*
 
-%3bool""object.operator ==(object, object)*
-"
-object**(
-&
-userPasswordManagerAPI.Models.User*
-""*
-1
-2*-
-1U U('"
-U U((
-User not found*Ò
-2[ ^(&K
-I
-[% [(;
-%4"__id*1/-
-+PasswordManagerAPI.Services.PasswordService°û
-[$ [([
-%5string"DPasswordManagerAPI.Services.IPasswordService.EncryptPassword(string)*
-
-%4*
-
-passwordValuestring2EncryptPassword(string)A
-?
-[ [([
-encryptedPasswordstring"__id*
-
-%5stringò
-ï
-^ ^(/
-%6)System.Collections.Generic.ICollection<T>",PasswordManagerAPI.Models.User.Passwords.get**(
-&
-userPasswordManagerAPI.Models.Userä
-á
-^ ^(&
-
-%7bool""object.operator ==(object, object)*
-"
-object*31
-/
-%6)System.Collections.Generic.ICollection<T>*
-""*
-3
-4*´
-3a a(5ZX
-a! a(5(
-%8"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-a% a(3
-
-%9void")System.Collections.Generic.List<T>.List()*,*
-(
-%8"System.Collections.Generic.List<T>«
-ƒ
-a a(50
-%10)System.Collections.Generic.ICollection<T>",PasswordManagerAPI.Models.User.Passwords.set**(
-&
-userPasswordManagerAPI.Models.User*,*
-(
-%8"System.Collections.Generic.List<T>*
-4*—
-4e h((Ω
-∫
-e( e(25
-%11.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
-+PasswordManagerAPI.Services.PasswordService"<
-
-_dbContext.PasswordManagerAPI.Data.PasswordManagerContext∫
-∑
-e( e(;3
-%12,Microsoft.EntityFrameworkCore.DbSet<TEntity>";PasswordManagerAPI.Data.PasswordManagerContext.Password.get*97
-5
-%11.PasswordManagerAPI.Data.PasswordManagerContext´
-®
-	e( e(ã)
-%13"PasswordManagerAPI.Models.Password"èSystem.Linq.Queryable.SingleOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
-System.Linq.Queryable*75
-3
-%12,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-""z
-x
-	e e(ã6
-existingPassword"PasswordManagerAPI.Models.Password"__id*-+
-)
-%13"PasswordManagerAPI.Models.Passwordí
-è
-h h((
-%14bool""object.operator !=(object, object)*
-"
-object*:8
-6
-existingPassword"PasswordManagerAPI.Models.Password*
-""*
-5
-6*≠
-5k n(&Ø
-¨
-k k(B
-%15string"4PasswordManagerAPI.Models.Password.PasswordValue.set*:8
-6
-existingPassword"PasswordManagerAPI.Models.Password*
-
-encryptedPasswordstringΩ
-∫
-l l(5
-%16.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
-+PasswordManagerAPI.Services.PasswordService"<
-
-_dbContext.PasswordManagerAPI.Data.PasswordManagerContextöó
-l l((
-
-%17int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*97
-5
-%16.PasswordManagerAPI.Data.PasswordManagerContext2SaveChanges()r
-p
-n n(=
-%18string"__concat*$
-n n('
-
-passwordNamestring*%
-n' n(<
- updated successfully"
-n n(>
-
-%18string*„
-6s |(&[Y
-s w()
-%19"PasswordManagerAPI.Models.Password""PasswordManagerAPI.Models.Passwordw
-u
-s# s(+
-%20void"-PasswordManagerAPI.Models.Password.Password()*-+
-)
-%19"PasswordManagerAPI.Models.Passwordú
-ô
-u u(/
-%21string"3PasswordManagerAPI.Models.Password.PasswordName.set*-+
-)
-%19"PasswordManagerAPI.Models.Password*
-
-passwordNamestring¢
-ü
-v v(5
-%22string"4PasswordManagerAPI.Models.Password.PasswordValue.set*-+
-)
-%19"PasswordManagerAPI.Models.Password*
-
-encryptedPasswordstringq
-o
-s w(.
-password"PasswordManagerAPI.Models.Password"__id*-+
-)
-%19"PasswordManagerAPI.Models.Passwordô
-ñ
-y y(0
-%23)System.Collections.Generic.ICollection<T>",PasswordManagerAPI.Models.User.Passwords.get**(
-&
-userPasswordManagerAPI.Models.Useræª
-y y(,
-%24void"0System.Collections.Generic.ICollection<T>.Add(T)*42
-0
-%23)System.Collections.Generic.ICollection<T>*20
-.
-password"PasswordManagerAPI.Models.Password2Add(T)Ω
-∫
-z z(5
-%25.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
-+PasswordManagerAPI.Services.PasswordService"<
-
-_dbContext.PasswordManagerAPI.Data.PasswordManagerContextöó
-z z((
-
-%26int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*97
-5
-%25.PasswordManagerAPI.Data.PasswordManagerContext2SaveChanges()p
-n
-| |(;
-%27string"__concat*$
-| |('
-
-passwordNamestring*#
-|' |(:
- added successfully"
-| |(<
-
-%27string*.
-7~	 ~(	"
-~ ~(	
-implicit return:
-M, M(:
-phoneIdstring:"
-M< M(O
-passwordNamestring:#
-MQ M(e
-passwordValuestringB/-
-+PasswordManagerAPI.Services.PasswordService
+Password*
+
+UserId*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)*
+1*.
+12	 2(	"
+2 2(	
+implicit return:Y
+# (DM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB/-
++PasswordManagerAPI.Migrations.InitialCreate

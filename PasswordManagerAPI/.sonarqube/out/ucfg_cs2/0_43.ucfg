@@ -1,61 +1,50 @@
 
-7PasswordManagerAPI.Services.UserService.AddUser(string){
-qC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\UserService.cs) )("0*˙
+7PasswordManagerAPI.Services.UserService.GetUser(string){
+qC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\UserService.cs ("0*Ï
 
-0+ .(<
-:
-+! +(0
-phoneIdstring"__id*
-
-phoneIdstringRP
-+ +(1$
-%0PasswordManagerAPI.Models.User"PasswordManagerAPI.Models.Userá
-Ñ
-+ +( 
-
-%1void"+PasswordManagerAPI.Models.User.User(string)*(&
-$
-%0PasswordManagerAPI.Models.User*
-
-phoneIdstringd
-b
-+ +(1&
-userPasswordManagerAPI.Models.User"__id*(&
-$
-%0PasswordManagerAPI.Models.User∏
+0  (∏
 µ
-, ,(4
-%2.PasswordManagerAPI.Data.PasswordManagerContext"__id*mk*i)
+ (!4
+%0.PasswordManagerAPI.Data.PasswordManagerContext"__id*mk*i)
 'PasswordManagerAPI.Services.UserService"<
 
 _dbContext.PasswordManagerAPI.Data.PasswordManagerContextµ
 ≤
-, ,(2
-%3,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8PasswordManagerAPI.Data.PasswordManagerContext.Users.get*86
+ ('2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8PasswordManagerAPI.Data.PasswordManagerContext.Users.get*86
 4
-%2.PasswordManagerAPI.Data.PasswordManagerContextÉÄ
-, ,(&G
-%4AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"9Microsoft.EntityFrameworkCore.DbSet<TEntity>.Add(TEntity)*64
+%0.PasswordManagerAPI.Data.PasswordManagerContextï
+í
+ (H
+%2System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
 2
-%3,Microsoft.EntityFrameworkCore.DbSet<TEntity>**(
-&
-userPasswordManagerAPI.Models.User2Add(TEntity)∏
-µ
-- -(4
-%5.PasswordManagerAPI.Data.PasswordManagerContext"__id*mk*i)
-'PasswordManagerAPI.Services.UserService"<
-
-_dbContext.PasswordManagerAPI.Data.PasswordManagerContextòï
-- -($	
-%6int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*86
-4
-%5.PasswordManagerAPI.Data.PasswordManagerContext2SaveChanges()"
-. .( 
-
-User added*.
-1/	 /(	"
-/ /(	
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""è
+å
+ (
+%3System.Linq.IQueryable<T>"íSystem.Linq.Queryable.Select<TSource, TResult>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TResult>>)*"
+System.Linq.Queryable*#!
+
+%2System.Linq.IQueryable<T>*
+""‹
+Ÿ
+ (;
+%45<anonymous type: System.Guid UserId, string? PhoneId>"NSystem.Linq.Queryable.FirstOrDefault<TSource>(System.Linq.IQueryable<TSource>)*"
+System.Linq.Queryable*#!
+
+%3System.Linq.IQueryable<T>ì
+ê
+ (=
+user5<anonymous type: System.Guid UserId, string? PhoneId>"__id*?=
+;
+%45<anonymous type: System.Guid UserId, string? PhoneId>"K
+   (?
+=
+user5<anonymous type: System.Guid UserId, string? PhoneId>*.
+1"	 "(	"
+" "(	
 implicit return:
-) )(,
+ (,
 phoneIdstringB+)
 'PasswordManagerAPI.Services.UserService
