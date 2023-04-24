@@ -1,0 +1,28 @@
+
+hPasswordManagerAPI.Controllers.UsersController.UsersController(PasswordManagerAPI.Services.IUserService)‚
+xC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\UsersController.cs ("3*
+1	 (	k
+i
+
+%0void"0Microsoft.AspNetCore.Mvc.Controller.Controller()*)'%
+#Microsoft.AspNetCore.Mvc.Controller*
+0*Ó
+0 (&¾
+»
+ (&l0
+.PasswordManagerAPI.Controllers.UsersController"8
+_userService(PasswordManagerAPI.Services.IUserService"__id*;9
+7
+userService(PasswordManagerAPI.Services.IUserService*
+2*.
+2	 (	"
+ (	
+implicit return*4
+38 (8 
+
+ (
+%1"__entrypoint*
+1:C
+ (77
+userService(PasswordManagerAPI.Services.IUserServiceB20
+.PasswordManagerAPI.Controllers.UsersController

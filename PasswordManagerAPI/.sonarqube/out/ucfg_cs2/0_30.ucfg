@@ -1,0 +1,43 @@
+
++PasswordManagerAPI.Models.User.User(string)r
+hC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\User.cs ("1*
+1 (*
+0*ƒ
+0 ((…
+‚
+ (
+%0string"+PasswordManagerAPI.Models.User.PhoneId.init*$" 
+PasswordManagerAPI.Models.User*
+
+phoneInstringI
+G
+ (
+%1System.Guid"System.Guid.NewGuid()*"
+System.Guid‰
+†
+ (
+%2System.Guid"*PasswordManagerAPI.Models.User.UserId.init*$" 
+PasswordManagerAPI.Models.User*
+
+%1System.GuidZX
+ (((
+%3"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
+o
+ (&
+
+%4void")System.Collections.Generic.List<T>.List()*,*
+(
+%3"System.Collections.Generic.List<T>À
+½
+ ((/
+%5)System.Collections.Generic.ICollection<T>",PasswordManagerAPI.Models.User.Passwords.set*$" 
+PasswordManagerAPI.Models.User*,*
+(
+%3"System.Collections.Generic.List<T>*
+2*.
+2 ("
+ (
+implicit return:
+ (
+phoneInstringB" 
+PasswordManagerAPI.Models.User

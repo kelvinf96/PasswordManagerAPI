@@ -1,0 +1,24 @@
+
+kPasswordManagerAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)è
+ÑC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Migrations\20230412160149_InitialCreate.cs5  5($"0*Ø
+07 ;(Õ 
+7 8(!_
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Password*
+""2DropTable(string, string?) «
+: ;(_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Users*
+""2DropTable(string, string?)*
+1*.
+1<	 <(	"
+< <(	
+implicit return:Y
+5% 5(FM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB/-
++PasswordManagerAPI.Migrations.InitialCreate

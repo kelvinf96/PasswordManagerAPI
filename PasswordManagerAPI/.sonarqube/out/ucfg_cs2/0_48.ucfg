@@ -1,0 +1,44 @@
+
+HPasswordManagerAPI.Models.Password.Password(System.Guid, string, string)v
+lC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Models\Password.cs4 4("1*
+1:	 :(	*
+0*£
+06 9()Ñ
+Å
+6 6( 
+%0System.Guid".PasswordManagerAPI.Models.Password.UserId.init*(&$
+"PasswordManagerAPI.Models.Password*
+""I
+G
+7 7(,
+%1System.Guid"System.Guid.NewGuid()*"
+System.Guidï
+í
+7 7(,
+%2System.Guid"2PasswordManagerAPI.Models.Password.PasswordId.init*(&$
+"PasswordManagerAPI.Models.Password*
+
+%1System.Guidé
+ã
+8 8($
+%3string"3PasswordManagerAPI.Models.Password.PasswordName.set*(&$
+"PasswordManagerAPI.Models.Password*
+
+namestringì
+ê
+9 9()
+%4string"4PasswordManagerAPI.Models.Password.PasswordValue.set*(&$
+"PasswordManagerAPI.Models.Password*
+
+passwordstring*
+2*.
+2:	 :(	"
+: :(	
+implicit return:!
+4 4(#
+userIdSystem.Guid:
+4% 4(0
+namestring:
+42 4(A
+passwordstringB&$
+"PasswordManagerAPI.Models.Password

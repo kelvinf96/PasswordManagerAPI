@@ -1,0 +1,75 @@
+
+LPasswordManagerAPI.Controllers.PasswordController.GetPasswordsByUser(string)…
+{C:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Controllers\PasswordController.cs1 1(/"2*Û
+04 4(@Ä
+Á
+4 4(&2
+%0,PasswordManagerAPI.Services.IPasswordService"__id*{y*w3
+1PasswordManagerAPI.Controllers.PasswordController"@
+_passwordService,PasswordManagerAPI.Services.IPasswordServiceéæ
+4 4(A(
+%1"System.Collections.Generic.List<T>"FPasswordManagerAPI.Services.IPasswordService.GetAllMyPasswords(string)*64
+2
+%0,PasswordManagerAPI.Services.IPasswordService*
+
+phoneIdstring2GetAllMyPasswords(string)ÛØ
+4 4(B-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*,*
+(
+%1"System.Collections.Generic.List<T>2Ok(object?)";
+4 4(C/
+-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult*.
+17	 7(	"
+7 7(	
+implicit return*ã
+21I 1(I7
+5
+1 1(/
+%3"__entrypoint*
+
+phoneIdstring‰
+†
+11 1(9
+%4"
+__annotate*QOM
+KSystem.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute()*
+
+phoneIdstring
+}
+.	 .(
+%5"
+__annotate*HFD
+BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
+
+phoneIdstring—
+”
+/	 /(6
+%6"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+phoneIdstring—
+”
+0	 0(>
+%7"
+__annotate*_][
+YMicrosoft.AspNetCore.Mvc.ProducesResponseTypeAttribute.ProducesResponseTypeAttribute(int)*
+
+phoneIdstringU
+S
+10 1(H
+phoneIdstring"__annotation*
+
+%4*
+
+%5*
+
+%6*
+
+%7*
+0:
+10 1(H
+phoneIdstringB53
+1PasswordManagerAPI.Controllers.PasswordController

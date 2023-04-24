@@ -1,0 +1,50 @@
+
+7PasswordManagerAPI.Services.UserService.GetUser(string){
+qC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\UserService.cs ("0*Ï
+
+0  (∏
+µ
+ (!4
+%0.PasswordManagerAPI.Data.PasswordManagerContext"__id*mk*i)
+'PasswordManagerAPI.Services.UserService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContextµ
+≤
+ ('2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8PasswordManagerAPI.Data.PasswordManagerContext.Users.get*86
+4
+%0.PasswordManagerAPI.Data.PasswordManagerContextï
+í
+ (H
+%2System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""è
+å
+ (
+%3System.Linq.IQueryable<T>"íSystem.Linq.Queryable.Select<TSource, TResult>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TResult>>)*"
+System.Linq.Queryable*#!
+
+%2System.Linq.IQueryable<T>*
+""‹
+Ÿ
+ (;
+%45<anonymous type: System.Guid UserId, string? PhoneId>"NSystem.Linq.Queryable.FirstOrDefault<TSource>(System.Linq.IQueryable<TSource>)*"
+System.Linq.Queryable*#!
+
+%3System.Linq.IQueryable<T>ì
+ê
+ (=
+user5<anonymous type: System.Guid UserId, string? PhoneId>"__id*?=
+;
+%45<anonymous type: System.Guid UserId, string? PhoneId>"K
+   (?
+=
+user5<anonymous type: System.Guid UserId, string? PhoneId>*.
+1"	 "(	"
+" "(	
+implicit return:
+ (,
+phoneIdstringB+)
+'PasswordManagerAPI.Services.UserService

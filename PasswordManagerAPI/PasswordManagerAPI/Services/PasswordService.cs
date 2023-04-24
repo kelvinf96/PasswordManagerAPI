@@ -135,7 +135,7 @@
                 // If the user doesn't exist, return an error message
                 return "User not found";
             }
-            Password existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
+            Password? existingPassword = _dbContext.Password.SingleOrDefault(p => p.UserId == user.UserId && p.PasswordName == passwordName);
             if (existingPassword == null)
             {
                 // If the user doesn't exist, return an error message

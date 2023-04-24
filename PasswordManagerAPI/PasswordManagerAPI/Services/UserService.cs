@@ -40,7 +40,7 @@ namespace PasswordManagerAPI.Services
 
         public string AddUser(string phoneId)
         {
-            User user = new User(phoneId=phoneId);
+            User user = new(phoneId);
             _dbContext.Users.Add(user);
             _dbContext.SaveChanges();
             return "User added";

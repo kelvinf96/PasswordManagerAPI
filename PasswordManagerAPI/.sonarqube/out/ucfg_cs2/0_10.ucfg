@@ -1,0 +1,20 @@
+
+cPasswordManagerAPI.Services.UserService.UserService(PasswordManagerAPI.Data.PasswordManagerContext){
+qC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\UserService.cs ("1*
+1	 (	*
+0*Ô
+0 ("¿
+¼
+ ("i)
+'PasswordManagerAPI.Services.UserService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContext"__id*?=
+;
+	dbContext.PasswordManagerAPI.Data.PasswordManagerContext*
+2*.
+2	 (	"
+ (	
+implicit return:G
+ (;;
+	dbContext.PasswordManagerAPI.Data.PasswordManagerContextB+)
+'PasswordManagerAPI.Services.UserService

@@ -1,0 +1,6 @@
+Å
+4PasswordManagerAPI.Migrations.PasswordCollectionInit2Microsoft.EntityFrameworkCore.Migrations.Migrationobject≥
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)rPasswordManagerAPI.Migrations.PasswordCollectionInit.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)∑
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)tPasswordManagerAPI.Migrations.PasswordCollectionInit.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)±
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)qPasswordManagerAPI.Migrations.PasswordCollectionInit.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)i
+PasswordCollectionInit()MPasswordManagerAPI.Migrations.PasswordCollectionInit.PasswordCollectionInit()

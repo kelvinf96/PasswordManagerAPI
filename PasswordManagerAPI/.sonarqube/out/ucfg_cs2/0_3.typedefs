@@ -1,0 +1,5 @@
+ð
+.PasswordManagerAPI.Controllers.UsersController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobject¥
+9UsersController(PasswordManagerAPI.Services.IUserService)hPasswordManagerAPI.Controllers.UsersController.UsersController(PasswordManagerAPI.Services.IUserService)_
+GetUserByPhone(string)EPasswordManagerAPI.Controllers.UsersController.GetUserByPhone(string)_
+AddUserByPhone(string)EPasswordManagerAPI.Controllers.UsersController.AddUserByPhone(string)

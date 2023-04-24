@@ -1,0 +1,7 @@
+organization=eadca2
+projectKey=rhyskelvineadca2passwordmanager
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.40165
+dashboardUrl=https://sonarcloud.io/dashboard?id=rhyskelvineadca2passwordmanager
+ceTaskId=AYe0u8bxCATJGoa6QRHx
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYe0u8bxCATJGoa6QRHx

@@ -1,0 +1,6 @@
+Â
++PasswordManagerAPI.Migrations.InitialCreate2Microsoft.EntityFrameworkCore.Migrations.Migrationobjectª
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)iPasswordManagerAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)®
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)kPasswordManagerAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)¨
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)hPasswordManagerAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)N
+InitialCreate();PasswordManagerAPI.Migrations.InitialCreate.InitialCreate()

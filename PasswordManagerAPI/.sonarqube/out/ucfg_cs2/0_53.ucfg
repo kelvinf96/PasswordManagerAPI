@@ -1,0 +1,177 @@
+
+sPasswordManagerAPI.Services.PasswordService.PasswordManagerAPI.Services.IPasswordService.DeleteAllPasswords(string)Å
+uC:\Users\rhysm\Projects\EAD2\server\PasswordManager\PasswordManagerAPI\PasswordManagerAPI\Services\PasswordService.csó  ó(2"0*©
+0
+ô õ(æ
+ª
+
+ô ô(!4
+%0.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
++PasswordManagerAPI.Services.PasswordService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContext∑
+¥
+
+ô ô('2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8PasswordManagerAPI.Data.PasswordManagerContext.Users.get*86
+4
+%0.PasswordManagerAPI.Data.PasswordManagerContext¶
+£
+
+ô ô(R$
+%2PasswordManagerAPI.Models.User"èSystem.Linq.Queryable.SingleOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""f
+d
+
+ô ô(R&
+userPasswordManagerAPI.Models.User"__id*(&
+$
+%2PasswordManagerAPI.Models.UserÉ
+Ä
+
+õ õ(
+
+%3bool""object.operator ==(object, object)*
+"
+object**(
+&
+userPasswordManagerAPI.Models.User*
+""*
+1
+2*1
+1
+û û('" 
+
+û û((
+User not found*œ	
+2
+° §("æ
+ª
+
+°/ °(94
+%4.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
++PasswordManagerAPI.Services.PasswordService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContext∫
+∑
+
+°/ °(B2
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>";PasswordManagerAPI.Data.PasswordManagerContext.Password.get*86
+4
+%4.PasswordManagerAPI.Data.PasswordManagerContextó
+î
+
+°/ °(f
+%6System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""’
+“
+
+°/ °(o(
+%7"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*#!
+
+%6System.Linq.IQueryable<T>{
+y
+
+° °(o7
+existingPasswords"System.Collections.Generic.List<T>"__id*,*
+(
+%7"System.Collections.Generic.List<T>å
+â
+
+¢! ¢(8	
+%8int"3System.Collections.Generic.ICollection<T>.Count.get*;9
+7
+existingPasswords"System.Collections.Generic.List<T>:
+8
+
+¢ ¢(8
+totalPasswordsint"__id*
+	
+%8int*
+3
+4*5
+3
+ß ß(+"$
+
+ß ß(,
+No passwords found*å
+
+4
+™ ≠(;æ
+ª
+
+™ ™(4
+%9.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
++PasswordManagerAPI.Services.PasswordService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContextª
+∏
+
+™ ™(3
+%10,Microsoft.EntityFrameworkCore.DbSet<TEntity>";PasswordManagerAPI.Data.PasswordManagerContext.Password.get*86
+4
+%9.PasswordManagerAPI.Data.PasswordManagerContextª∏
+
+™ ™(>
+%11void"iMicrosoft.EntityFrameworkCore.DbSet<TEntity>.RemoveRange(System.Collections.Generic.IEnumerable<TEntity>)*75
+3
+%10,Microsoft.EntityFrameworkCore.DbSet<TEntity>*;9
+7
+existingPasswords"System.Collections.Generic.List<T>2<RemoveRange(System.Collections.Generic.IEnumerable<TEntity>)ø
+º
+
+´ ´(5
+%12.PasswordManagerAPI.Data.PasswordManagerContext"__id*qo*m-
++PasswordManagerAPI.Services.PasswordService"<
+
+_dbContext.PasswordManagerAPI.Data.PasswordManagerContextúô
+
+´ ´($
+
+%13int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*97
+5
+%12.PasswordManagerAPI.Data.PasswordManagerContext2SaveChanges()v
+t
+
+≠ ≠(>
+
+%14int"__concat*)
+
+≠ ≠(,
+Removed all passwords (*%
+
+≠, ≠(<
+
+totalPasswordsintI
+G
+
+≠ ≠(>
+
+%15int"__concat*
+
+
+%14int*
+
+≠< ≠(=
+)"
+
+≠ ≠(?
+
+
+%15int*2
+5
+Æ	 Æ(	"!
+
+Æ Æ(	
+implicit return:
+
+ó3 ó(A
+phoneIdstringB/-
++PasswordManagerAPI.Services.PasswordService
